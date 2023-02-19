@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#intro {
+  /* Margin to fix overlapping fixed navbar */
+  margin-top: 58px;
+}
+
+@media (max-width: 991px) {
+  #intro {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 45px;
+  }
+}
+
+/* svg map */
+#buildings a:hover { 
+  filter: brightness(85%); 
+}
+
+#buildings .custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-bg: #94cdd3;
+  --bs-popover-header-bg: #2e6679;
+  --bs-popover-header-color: #FFFFFF;
+  --bs-popover-body-padding-x: .5rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
+#buildings .cls-1 { fill: #b05a2b; }
+#buildings .cls-2 { fill: #713a1c; }
+#buildings .cls-3 { fill: #eeece7; }
+#buildings .cls-4 { fill: #53101b; }
+#buildings .cls-5 { fill: #6f6e6b; }
+#buildings .cls-6 { fill: #f9e2cf; }
+#buildings .cls-7 { fill: #cf2844; }
+#buildings .cls-8 { fill: #8f1c2f; }
+#buildings .cls-9 { fill: #ccab9a; }
+#buildings .cls-10 { fill: #f07b3b; }
+#buildings .cls-11 { fill: #aeada9; }
+
+/* svg map effect end */
