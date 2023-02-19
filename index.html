@@ -27,6 +27,30 @@
       <!--Main Navigation-->
   <header>
 
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SF Chinatown</title>
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- Font Awesome icons (free version)-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- Custom styles -->
+    <link href="static/css/style.css" rel="stylesheet" />
+</head>
+<body>
+      <!--Main Navigation-->
+  <header>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid">
@@ -38,10 +62,10 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSF">
           <a class="navbar-brand" target="_blank" href="/"> SF Chinatown </a>
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item"> <a class="nav-link" href="#" rel="nofollow" target="_blank">[ I-house ]</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#" rel="nofollow" target="_blank">[ Firehouse ]</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#" rel="nofollow" target="_blank">[ West Ping Yuen ]</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#" rel="nofollow" target="_blank">[ North Ping Yuen ]</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ I Hotel ]</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ Firehouse ]</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ West Ping Yuen ]</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ North Ping Yuen ]</a> </li>
           </ul>
         </div>
       </div>
@@ -91,6 +115,11 @@
       <!--Section: Map -->
       <section class="border-bottom pb-4 mb-5">
         <div class="row">
+
+    <div class="text-center bg-light">
+      <h1 class="mb-3 h2">Interactive Map</h1>
+      <p class="mb-3">Hover over the buildings to explore</p>
+    </div>
 
 <div class="col-sm-1 mx-auto"></div>
 <div class="col-sm-10 mx-auto">
@@ -162,7 +191,7 @@
     <polygon class="cls-5" points="148.41 246.88 166.87 256.74 166.87 247.35 148.41 237.58 148.41 246.88"/>
     <polygon class="cls-3" points="148.41 237.58 194.26 204.08 245.93 225.48 223.54 240.29 215.16 236.97 211.93 240.42 192.47 232.27 188.36 235.34 184.48 234.42 166.87 247.35 148.41 237.58"/>
   </g>
-<a id='aWestPingYuen' href="article.html" data-bs-trigger="hover" data-bs-custom-class="custom-popover" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"  data-bs-title="West Ping Yuen" data-bs-content="[Short descriptive subtitle on the research direction]">
+<a id='aWestPingYuen' href="article.html" data-bs-trigger="hover" data-bs-custom-class="map-popover" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"  data-bs-title="West Ping Yuen" data-bs-content="[Short descriptive subtitle on the research direction]">
   <g id="gWestPingYuen">
     <polygon class="cls-8" points="147.11 215.12 132.37 226.73 132.37 201.55 147.11 189.94 147.11 215.12"/>
     <polygon class="cls-4" points="160.15 220.99 147.11 215.12 147.11 189.94 160.15 195.81 160.15 220.99"/>
@@ -174,7 +203,7 @@
     <polygon class="cls-4" points="116.58 194.38 130.41 183.16 90.89 166.21 90.89 191.38 116.58 202.4 116.58 219.55 132.37 226.73 132.37 201.55 116.58 194.38"/>
   </g>
 </a>
-<a id='aNorthPingYuen' href="article.html" data-bs-trigger="hover" data-bs-custom-class="custom-popover" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"  data-bs-title="North Ping Yuen" data-bs-content="[Short descriptive subtitle on the research direction]">
+<a id='aNorthPingYuen' href="article.html" data-bs-trigger="hover" data-bs-custom-class="map-popover" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"  data-bs-title="North Ping Yuen" data-bs-content="[Short descriptive subtitle on the research direction]">
   <g id="NorthPingYuen">
     <path class="cls-8" d="M233.54,143.3c9.9,4.03,17.98,7.33,17.98,7.33l4.65-3.69,7.92,3.23-4.65,3.69,6.3,2.57,.07,.51,44.93-34.68v-41.35l-77.2,62.4Z"/>
     <polygon class="cls-4" points="256.74 213.36 189.04 185.77 189.04 135.49 256.74 163.08 256.74 213.36"/>
@@ -184,7 +213,7 @@
     <polygon class="cls-4" points="189.86 130.5 189.86 134.84 193.47 131.97 189.86 130.5"/>
   </g>
 </a>
-<a id='aFireStation' href="article.html" data-bs-trigger="hover" data-bs-custom-class="custom-popover" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"  data-bs-title="Fire Station" data-bs-content="[Short descriptive subtitle on the research direction]">
+<a id='aFireStation' href="article.html" data-bs-trigger="hover" data-bs-custom-class="map-popover" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"  data-bs-title="Fire Station" data-bs-content="[Short descriptive subtitle on the research direction]">
   <g id="gFireStation">
     <polygon class="cls-1" points="188.16 128.05 175.15 138.62 175.15 149.67 188.16 139.11 188.16 128.05"/>
     <polygon class="cls-1" points="162.14 134.95 162.14 133.04 160.53 134.17 162.14 134.95"/>
@@ -222,14 +251,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
 
       <!--Section: Content-->
       <section>
-        <div class="row gx-5">
+        <div class="row gx-5" id="articles">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <!-- Publication block -->
             <div>
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong ripple mb-4" data-mdb-ripple-color="light">
                 <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg" class="img-fluid" />
-                <a href="#!">
+                <a href="#">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
@@ -244,13 +273,13 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                 </div>
 
                 <div class="col-6 text-end">
-                  <u> 15.07.2020</u>
+                  <u> Authors</u>
                 </div>
               </div>
 
               <!-- Article title and description -->
               <a href="" class="text-dark">
-                <h5>This is title </h5>
+                <h5>Short Title </h5>
 
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
@@ -262,7 +291,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <hr />
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
@@ -272,14 +301,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
               </a>
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
@@ -289,14 +318,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
               </a>
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
@@ -306,7 +335,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
@@ -322,7 +351,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong ripple mb-4" data-mdb-ripple-color="light">
                 <img src="https://mdbootstrap.com/img/new/fluid/city/011.jpg" class="img-fluid" />
-                <a href="#!">
+                <a href="#">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
@@ -330,20 +359,20 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Article data -->
               <div class="row mb-3">
                 <div class="col-6">
-                  <a href="" class="text-danger">
+                  <a href="#" class="text-danger">
                     <i class="fas fa-chart-pie"></i>
                     Feature title 
                   </a>
                 </div>
 
                 <div class="col-6 text-end">
-                  <u> 15.07.2020</u>
+                  <u> Authors</u>
                 </div>
               </div>
 
               <!-- Article title and description -->
-              <a href="" class="text-dark">
-                <h5>This is title </h5>
+              <a href="#" class="text-dark">
+                <h5>Short Title </h5>
 
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
@@ -355,7 +384,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <hr />
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
@@ -365,14 +394,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
               </a>
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/032.jpg"
@@ -382,14 +411,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
               </a>
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/033.jpg"
@@ -399,7 +428,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
@@ -415,7 +444,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong ripple mb-4" data-mdb-ripple-color="light">
                 <img src="https://mdbootstrap.com/img/new/fluid/city/018.jpg" class="img-fluid" />
-                <a href="#!">
+                <a href="#">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
@@ -423,20 +452,20 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Article data -->
               <div class="row mb-3">
                 <div class="col-6">
-                  <a href="" class="text-warning">
+                  <a href="#" class="text-warning">
                     <i class="fas fa-code"></i>
                    Article title 
                   </a>
                 </div>
 
                 <div class="col-6 text-end">
-                  <u> 15.07.2020</u>
+                  <u> Authors</u>
                 </div>
               </div>
 
               <!-- Article title and description -->
-              <a href="" class="text-dark">
-                <h5>This is title </h5>
+              <a href="#" class="text-dark">
+                <h5>Short Title </h5>
 
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
@@ -448,7 +477,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <hr />
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/011.jpg"
@@ -458,14 +487,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
               </a>
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/012.jpg"
@@ -475,14 +504,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
               </a>
 
               <!-- Publication -->
-              <a href="" class="text-dark">
+              <a href="#" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/013.jpg"
@@ -492,7 +521,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
                   <div class="col-9">
                     <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
                     <p>
-                      <u> 15.07.2020</u>
+                      <u> Authors</u>
                     </p>
                   </div>
                 </div>
@@ -511,10 +540,10 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
 
   <!--Footer-->
   <footer class="text-lg-start">
-    <hr class="m-0" />
+    <hr class="m-2" />
     <!-- Copyright -->
      <p class="copyright text-muted text-center">
-      &copy; <a class="text-dark" href="#">SFChinatown.github.io</a> 2023
+      &copy; SFChinatown.github.io 2023
      </p>
   </footer>
   <!--Footer-->
