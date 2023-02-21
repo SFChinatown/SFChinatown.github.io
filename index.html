@@ -15,11 +15,6 @@
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
-
-    
     <!-- Custom styles -->
     <link href="static/css/style.css" rel="stylesheet" />
 </head>
@@ -60,12 +55,11 @@
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSF">
-          <a class="navbar-brand" target="_blank" href="/"> SF Chinatown </a>
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ I Hotel ]</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ Firehouse ]</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ West Ping Yuen ]</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="article" rel="nofollow">[ North Ping Yuen ]</a> </li>
+          <span class="navbar-brand"> SF Chinatown </span>
+          <ul class="navbar-nav mb-3 mb-lg-0 px-4">
+            <li class="nav-item px-3"> <a class="nav-link" href="article" rel="nofollow">Portsmouth Square</a> </li>
+            <li class="nav-item px-3"> <a class="nav-link" href="article" rel="nofollow">Ping Yuen</a> </li>
+            <li class="nav-item px-3"> <a class="nav-link" href="article" rel="nofollow">Kubla Khan Night Club</a> </li>
           </ul>
         </div>
       </div>
@@ -74,10 +68,10 @@
 
     <!-- Jumbotron -->
    <div id="intro" class="p-4 p-md-5 mb-4 text-white rounded" style="background-image: url('static/img/header-bg.jpg')">
-    <div class="col-md-6 px-0">
-      <h2 class="display-3 fst-italic">Title of a featured article</h2>
-      <p class="lead my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit aliquam. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Nam aliquam sem et tortor consequat id porta nibh. Fermentum leo vel orci porta. </p>
-      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+    <div class="col-md-8 px-0 py-5">
+      <h3 class="display-3 fst-italic">Featured article: I-Hotel</h3>
+      <p class="lead my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit aliquam. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Nam aliquam sem et tortor consequat id porta nibh. </p>
+      <p class="lead mb-0"><a href="article" class="text-white fw-bold">Continue reading...</a></p>
     </div>
   </div>
     <!-- Jumbotron -->
@@ -93,7 +87,7 @@
           <div class="col-md-6 mb-4">
             <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
               <img src="static/img/exampleimage.jpg" class="img-fluid" />
-              <a href="#!">
+              <a href="#">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
             </div>
@@ -116,7 +110,7 @@
       <section class="border-bottom pb-4 mb-5">
         <div class="row">
 
-    <div class="text-center bg-light">
+    <div class="text-center">
       <h1 class="mb-3 h2">Interactive Map</h1>
       <p class="mb-3">Hover over the buildings to explore</p>
     </div>
@@ -258,28 +252,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong ripple mb-4" data-mdb-ripple-color="light">
                 <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg" class="img-fluid" />
-                <a href="#">
+                <a href="article">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
 
-              <!-- Article data -->
-              <div class="row mb-3">
-                <div class="col-6">
-                  <a href="" class="text-info">
-                    <i class="fas fa-plane"></i>
-                    Other feature 
-                  </a>
-                </div>
-
-                <div class="col-6 text-end">
-                  <u> Authors</u>
-                </div>
-              </div>
-
               <!-- Article title and description -->
-              <a href="" class="text-dark">
-                <h5>Short Title </h5>
+              <a href="article" class="text-dark">
+                <h5>I-Hotel</h5>
 
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
@@ -291,7 +271,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <hr />
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
@@ -308,7 +288,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               </a>
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
@@ -325,7 +305,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               </a>
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
@@ -351,28 +331,14 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong ripple mb-4" data-mdb-ripple-color="light">
                 <img src="https://mdbootstrap.com/img/new/fluid/city/011.jpg" class="img-fluid" />
-                <a href="#">
+                <a href="article">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
 
-              <!-- Article data -->
-              <div class="row mb-3">
-                <div class="col-6">
-                  <a href="#" class="text-danger">
-                    <i class="fas fa-chart-pie"></i>
-                    Feature title 
-                  </a>
-                </div>
-
-                <div class="col-6 text-end">
-                  <u> Authors</u>
-                </div>
-              </div>
-
               <!-- Article title and description -->
-              <a href="#" class="text-dark">
-                <h5>Short Title </h5>
+              <a href="article" class="text-dark">
+                <h5>Ping Yuen</h5>
 
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
@@ -384,7 +350,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <hr />
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
@@ -401,7 +367,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               </a>
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/032.jpg"
@@ -418,7 +384,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               </a>
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/033.jpg"
@@ -444,27 +410,13 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong ripple mb-4" data-mdb-ripple-color="light">
                 <img src="https://mdbootstrap.com/img/new/fluid/city/018.jpg" class="img-fluid" />
-                <a href="#">
+                <a href="article">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
 
-              <!-- Article data -->
-              <div class="row mb-3">
-                <div class="col-6">
-                  <a href="#" class="text-warning">
-                    <i class="fas fa-code"></i>
-                   Article title 
-                  </a>
-                </div>
-
-                <div class="col-6 text-end">
-                  <u> Authors</u>
-                </div>
-              </div>
-
               <!-- Article title and description -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <h5>Short Title </h5>
 
                 <p>
@@ -477,7 +429,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               <hr />
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/011.jpg"
@@ -494,7 +446,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               </a>
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/012.jpg"
@@ -511,7 +463,7 @@ $( "#aFireStation" ).hover( function() { $( "#pFireStation" ).css("display", "in
               </a>
 
               <!-- Publication -->
-              <a href="#" class="text-dark">
+              <a href="article" class="text-dark">
                 <div class="row mb-4 border-bottom pb-2">
                   <div class="col-3">
                     <img src="https://mdbootstrap.com/img/new/standard/city/013.jpg"
