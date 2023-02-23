@@ -16,6 +16,15 @@
   }
 }
 
+/* image hover */
+img {
+  opacity: 1.0;
+}
+
+img:hover {
+  opacity: .7;
+}
+
 /* svg map */
 #buildings a:hover { 
   filter: brightness(85%); 
