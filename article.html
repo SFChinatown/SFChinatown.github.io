@@ -14,14 +14,12 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
     <!-- Custom styles -->
-    <link href="static/css/style.css" rel="stylesheet" />
+    <link href="/static/sfchinatown/css/style.css" rel="stylesheet" />
 </head>
 <body>
       <!--Main Navigation-->
   <header>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid">
@@ -41,17 +39,62 @@
       </div>
     </nav>
     <!-- Navbar -->
-
-    <!-- Jumbotron -->
-   <div id="intro" class="p-4 p-md-5 mb-4 text-white rounded" style="background-image: url('static/img/InternationalHotelJumbotron.jpg')">
-    <div class="col-md-6 px-15">
-      <h2 class="display-3 fst-italic">Main Message</h2>
-      <p class="lead my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit aliquam. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Nam aliquam sem et tortor consequat id porta nibh. Fermentum leo vel orci porta. </p>
-    </div>
-  </div>
-    <!-- Jumbotron -->
   </header>
-  <!--Main Navigation-->
+
+
+
+    <!-- Carousel wrapper -->
+    <div id="carouselBasic" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselBasic" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
+        <button type="button" data-bs-target="#carouselBasic" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+	<button type="button" data-bs-target="#carouselBasic" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City"/>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBasic" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselBasic" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel wrapper -->
+
 
   <!--Main layout-->
   <main class="my-5">
@@ -125,7 +168,7 @@
 
     <div class="col-sm-9 mx-auto">
 	    <h4>History of I-Hotel</h4>
-	    <img src="static/img/exampleimage.jpg" width='400px' class="float-end px-3"/>
+	    <img src="/static/sfchinatown/img/exampleimage.jpg" width='400px' class="float-end px-3"/>
 	    <p>Article Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  </p>
 
 	    <!--- section --->
@@ -134,7 +177,7 @@
 	    <h4>Voices of the Manongs</h4>
 	      <figure>
                 <figcaption>Embed an audio:</figcaption>
-                <audio controls src="static/audio/sample.mp3"> <a href="static/audio/sample.mp3"> Download audio </a> </audio>
+                <audio controls src="/static/sfchinatown/audio/sample.mp3"> <a href="/static/sfchinatown/audio/sample.mp3"> Download audio </a> </audio>
               </figure>
 	      <p>Article Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate mattis.  </p>
 	      </div>
@@ -159,7 +202,10 @@
   </main>
   <!--Main layout-->
 
-  <!--Footer-->
+
+
+
+  <!-- Footer -->
   <footer class="text-lg-start">
     <hr class="m-2" />
     <!-- Copyright -->
