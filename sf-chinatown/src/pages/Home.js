@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { Card } from 'reactstrap';
 import CarouselHeader from '../components/CarouselHeader';
 import TextBlock from '../components/TextBlock';
 import Tile from '../components/Tile';
+import Footer from '../components/Footer';
 import "./Home.css";
 
 const Home = () => {
@@ -85,6 +85,17 @@ const Home = () => {
                 image="test.png"
                 />
             </div>
+            <div className="contact-us">
+                <div className="contact-description">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h5>
+                </div>
+                <div className="contact-button">
+                    <Link to="/">
+                        <button>Contact Us</button>
+                    </Link>
+                </div>
+            </div>
+            <Footer />
         </div>
     )
 }
