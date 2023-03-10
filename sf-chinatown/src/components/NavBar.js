@@ -14,22 +14,22 @@ const NavBar = () => {
 
     return (
         <nav className='navBar'>
-            <div className='logo'>
-                <Brand />
-            </div>
             <div className="menu-icon" onClick={handleShowNavbar}>
                 <Hamburger />
             </div>
             <div className={`nav-elements  ${showNavbar && 'active'}`}>
                 <ul>
                     <li>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li>
                         <NavLink to="/map">Interactive Map</NavLink>
                     </li>
+                    <li className='logo'>
+                        <NavLink to="/"><Brand /></NavLink>
+                    </li>
                     <li>
-                        <NavLink to="/about">Explore</NavLink>
+                        <NavLink to="/locations">Locations of Interest</NavLink>
                     </li>
                 </ul>
             </div>

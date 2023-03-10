@@ -1,0 +1,39 @@
+.intro, .explore-peek, .tiles {
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.intro-header {
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.explore-peek {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  padding: 50px 40px;
+}
+
+.description {
+  width: 30vw;
+  flex: 0.3;
+  gap: 30px;
+}
+
+.image {
+  width: 70vw;
+  flex: 0.7;
+}
+
+.image > img {
+  width: 100%;
+  padding-right: 30px;
+}
