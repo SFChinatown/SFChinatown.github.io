@@ -18,15 +18,15 @@ const NavBar = () => {
                 <Hamburger />
             </div>
             <div className={`nav-elements  ${showNavbar && 'active'}`}>
+                <div className="logo">
+                    <NavLink to="/"><Brand /></NavLink>
+                </div>
                 <ul>
                     <li>
                         <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li>
                         <NavLink to="/map">Interactive Map</NavLink>
-                    </li>
-                    <li className='logo'>
-                        <NavLink to="/"><Brand /></NavLink>
                     </li>
                     <li>
                         <NavLink to="/locations">Locations of Interest</NavLink>

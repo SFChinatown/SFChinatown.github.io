@@ -14,10 +14,18 @@
   display: none;
 }
 
+.logo {
+  padding-bottom: 30px;
+}
 .nav-elements ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  text-align: center;
+}
+
+.nav-elements > ul > li {
+  padding: 0 30px;
 }
 
 .nav-elements ul li:not(:last-child) {
