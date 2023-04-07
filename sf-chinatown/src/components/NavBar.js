@@ -29,7 +29,7 @@ const NavBar = () => {
                         <NavLink to="/map">Interactive Map</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/locations">Locations of Interest</NavLink>
+                        <NavLink to="/themes">Main Themes</NavLink>
                     </li>
                 </ul>
             </div>

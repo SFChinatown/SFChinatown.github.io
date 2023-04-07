@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-import './CarouselHeader';
+import './CarouselHeader.css';
 
 function CarouselHeader(props) {
   const carouselItems = props.items.map((slide) =>

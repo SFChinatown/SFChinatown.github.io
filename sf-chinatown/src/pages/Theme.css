@@ -1,0 +1,64 @@
+.header > img {
+  width: 100%;
+}
+
+.overview {
+  display: block;
+}
+
+.themes-header {
+  width: 100%;
+  text-align: center;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.tiles {
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.theme-section {
+  padding: 50px;
+}
+
+.odd {
+  background-color: #F5F5F5;
+}
+
+.even {
+  background-color: white;
+}
+
+.text-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  flex: 0.5;
+}
+
+.image, .buttons {
+  flex: 0.5;
+}
+
+.image > img {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.buttons {
+  text-align: left;
+  display: grid;
+  gap: 30px;
+}
+
+button {
+
+}

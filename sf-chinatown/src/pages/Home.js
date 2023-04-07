@@ -55,33 +55,54 @@ const Home = () => {
             </div>
             <div className='tiles'>
                 <Tile
-                header="CCSF -- North Beach"
-                body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. "
+                header="Education"
+                body={[
+                    "CCSF - Chinatown",
+                    "Chinese for Affirmative Action"
+                ]}
                 image="test.png"
                 />
                 <Tile
-                header="Chinese Hospital"
-                body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. "
+                header="Public Health"
+                body={[
+                    "Chinese Hospital",
+                    "Asian Mental Health",
+                    "Traditional Medicine",
+                    "Women’s Health"
+                ]}                
                 image="test.png"
                 />
                 <Tile
-                header="International Hotel"
-                body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. "
+                header="Tenant Rights and Community Organizing"
+                body={[
+                    "International Hotel",
+                    "Ping Yuen",
+                    "Mei Lun Yuen",
+                    "Housing and Community Organizing in Chinatown Today"
+                ]}                               
                 image="test.png"
                 />
                 <Tile
-                header="Kubla Khan Nightclub"
-                body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. "
+                header="Arts & Culture"
+                body={[
+                    "Kubla Khan Nightclub"
+                ]}    
                 image="test.png"
                 />
                 <Tile
-                header="Portsmouth Square"
-                body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. "
+                header="Public Space"
+                body={[
+                    "Portsmouth Square",
+                    "Willie Wong Playground",
+                    "St. Mary's Square",
+                    "Woh Hei Yuen Park",
+                    "Betty Ann Ong Recreation Center"
+                ]}                    
                 image="test.png"
                 />
                 <Tile
                 header="Location #6"
-                body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. "
+                body={[]}
                 image="test.png"
                 />
             </div>

@@ -1,0 +1,13 @@
+.block {
+  text-align: left;
+  padding: 0 30px;
+  margin-top: 15px;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.item {
+  list-style-type: circle;
+}
