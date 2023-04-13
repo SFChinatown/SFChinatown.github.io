@@ -13,15 +13,69 @@ const Home = () => {
                 <CarouselHeader
                     items = {[
                         {
-                            path: 'test.png',
+                            path: 'home-carousel/carousel-1.jpg',
                             alt: 'First slide',
-                            label: 'First slide label',
+                            label: 'CBPR',
                             caption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
                         },
                         {
-                            path: 'test.png',
+                            path: 'home-carousel/carousel-2.jpg',
                             alt: 'Second slide',
                             label: 'Second slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-3.jpg',
+                            alt: 'Third slide',
+                            label: 'Third slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-4.jpg',
+                            alt: 'Fourth slide',
+                            label: 'Fourth slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-5.jpg',
+                            alt: 'Fifth slide',
+                            label: 'Fifth slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-6.jpg',
+                            alt: 'Sixth slide',
+                            label: 'Sixth slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-7.jpg',
+                            alt: '7 slide',
+                            label: '7 slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-8.jpg',
+                            alt: '8 slide',
+                            label: '8 slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-9.png',
+                            alt: '9 slide',
+                            label: '9 slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-10.png',
+                            alt: '10 slide',
+                            label: '10 slide label',
+                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        },
+                        {
+                            path: 'home-carousel/carousel-11.jpg',
+                            alt: '11 slide',
+                            label: '11 slide label',
                             caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
                         }
                     ]}

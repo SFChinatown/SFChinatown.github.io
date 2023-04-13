@@ -10,8 +10,8 @@ function CarouselHeader(props) {
         <p>{slide.caption}</p>
       </Carousel.Caption>
       <img
-        className="d-block w-100"
-        src={require(`../assets/images/${slide.path}`)}
+        className="carousel-image"
+        src={`../assets/images/${slide.path}`} 
         alt={slide.alt}
       />
     </Carousel.Item>

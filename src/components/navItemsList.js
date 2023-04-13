@@ -14,6 +14,12 @@ export const navItemsList = [
         {
           title: 'Education',
           url: 'education',
+          submenu: [
+            {
+              title: 'CCSF Chinatown',
+              url: 'education/ccsf-chinatown',
+            },
+          ]
         },
         {
           title: 'Public Health',
