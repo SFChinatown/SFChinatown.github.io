@@ -1,0 +1,16 @@
+.intro > img {
+    margin: 15px;
+}
+.vertical-img {
+    height: 300px !important;
+    width: auto !important;
+}
+
+.horizontal-img {
+    width: 80% !important;
+}
+
+.intro :not(h2, h3, img, sup, a) {
+    margin: 0 100px;
+    text-align: left;
+}

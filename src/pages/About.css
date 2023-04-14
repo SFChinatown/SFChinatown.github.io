@@ -1,16 +1,18 @@
 .overview {
   background-color: #F5F5F5;
-  display: flex;
-  justify-content: space-between;
   padding: 50px 40px;
+
+  width: 100%;
 }
 
 .description {
-  flex: 0.5;
+  float: left; 
+  width: 50%; 
 }
 
 .overview-img {
-  flex: 0.5;
+  display:flex;
+  flex-direction:column;
 }
 
 .overview-img  > img {

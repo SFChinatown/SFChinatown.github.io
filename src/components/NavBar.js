@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "./NavBar.css"
 import { ReactComponent as Brand } from '../assets/icons/logo.svg'
 import NavItems from './NavItems';
-import { navItemsList } from './navItemsList';
+import { NavItemsList } from './NavItemsList';
 
 const NavBar = () => {
     return (
@@ -13,7 +13,7 @@ const NavBar = () => {
                     <Link to="/"><Brand /></Link>
                 </div>
                 <ul className="nav-items">
-                    {navItemsList.map((menu) => {
+                    {NavItemsList.map((menu) => {
                         const depthLevel = 0;
                         return <NavItems items={menu} depthLevel={depthLevel} />;
                     })}

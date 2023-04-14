@@ -1,4 +1,4 @@
-export const navItemsList = [
+export const NavItemsList = [
     {
       title: 'About Us',
       url: '/about-us',

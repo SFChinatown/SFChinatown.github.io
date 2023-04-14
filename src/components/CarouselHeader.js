@@ -11,7 +11,7 @@ function CarouselHeader(props) {
       </Carousel.Caption>
       <img
         className="carousel-image"
-        src={`../assets/images/${slide.path}`} 
+        src={`../assets/images/${slide.path}`}  // points to public folder
         alt={slide.alt}
       />
     </Carousel.Item>
