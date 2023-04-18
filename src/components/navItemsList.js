@@ -32,3 +32,41 @@ export const NavItemsList = [
       ]
     },
   ];
+
+  // ReactDOM.render(<DropdownMenu config={[
+  //   {
+  //     "title": "Option 1",
+  //     "submenu": null
+  //   },
+  //   {
+  //     "title": "Option 2",
+  //     "submenu": [
+  //       {
+  //         "title": "Option 2.1",
+  //         "submenu": [
+  //           {
+  //             "title": "Option 2.1.1",
+  //             "submenu": null
+  //           },
+  //           {
+  //             "title": "Option 2.1.2",
+  //             "submenu": null
+  //           }
+  //         ]
+  //       },
+  //       {
+  //         "title": "Option 2.2",
+  //         "submenu": [
+  //           {
+  //             "title": "Option 2.2.1",
+  //             "submenu": null
+  //           },
+  //           {
+  //             "title": "Option 2.2.2",
+  //             "submenu": null
+  //           }
+  //         ]
+  //       }
+  //     ]
+  //   }
+  // ]}/>, document.querySelector("#app"))
