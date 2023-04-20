@@ -11,7 +11,11 @@ import CCSF from './pages/education/CCSF';
 import LauNichols from './pages/education/LauNichols';
 import CFAA from './pages/education/CFAA';
 
-import IHotel from './pages/tenants-community/IHotel';
+// Housing pages
+import IHotel from './pages/housing/IHotel';
+
+// Culture pages
+import KublaKhan from './pages/culture/KublaKhan';
 
 function App() {
   return (
@@ -42,7 +46,7 @@ function App() {
           {/* Route exact path="/housing/housing-community-today" element={<HousingCom />}></Route> */}
 
           {/* Arts & Culture */}
-          {/* Route exact path="/arts-culture/kubla-khan-nightclub" element={<KublaKhan />}></Route> */}
+          <Route exact path="/culture/kubla-khan-nightclub" element={<KublaKhan />}></Route>
 
           {/* Public Spaces */}
           {/* Route exact path="/public-spaces/portsmouth-square" element={<PMSquare />}></Route> */}

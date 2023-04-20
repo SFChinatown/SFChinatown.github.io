@@ -12,6 +12,16 @@ export const NavItemsList = [
       url: 'main-themes',
       submenu: [
         {
+          title: 'Culture',
+          url: 'culture',
+          submenu: [
+            {
+              title: 'Kubla Khan Nightclub',
+              url: 'culture/kubla-khan-nightclub'
+            }
+          ]
+        },
+        {
           title: 'Education',
           url: 'education',
           submenu: [
@@ -20,12 +30,34 @@ export const NavItemsList = [
               url: 'education/ccsf-chinatown',
             },
             {
+              title: 'Chinese for Affirmative Action',
+              url: 'education/cfaa',
+            },
+            {
               title: 'Lau Nichols',
               url: 'education/lau-nichols',
             },
+          ]
+        },
+        {
+          title: 'Housing',
+          url: 'housing',
+          submenu: [
             {
-              title: 'Chinese for Affirmative Action',
-              url: 'education/cfaa',
+              title: "Housing and Community Organizing in Chinatown Today",
+              url: "housing/housing-community-today"
+            },
+            {
+              title: 'International Hotel',
+              url: 'housing/i-hotel',
+            },
+            {
+              title: 'Mei Lun Yuen',
+              url: 'housing/mei-lun-yuen',
+            },
+            {
+              title: 'Ping Yuen',
+              url: 'housing/ping-yuen',
             },
           ]
         },
@@ -34,12 +66,12 @@ export const NavItemsList = [
           url: 'public-health',
           submenu: [
             {
-              title: 'Chinese Hospital',
-              url: 'public-health/chinese-hospital',
-            },
-            {
               title: 'Asian Mental Health',
               url: 'public-health/asian-mental-health',
+            },
+            {
+              title: 'Chinese Hospital',
+              url: 'public-health/chinese-hospital',
             },
             {
               title: 'Traditional Medicine',
@@ -52,61 +84,29 @@ export const NavItemsList = [
           ]
         },
         {
-          title: 'Housing',
-          url: 'housing',
-          submenu: [
-            {
-              title: 'International Hotel',
-              url: 'housing/i-hotel',
-            },
-            {
-              title: 'Ping Yuen',
-              url: 'housing/ping-yuen',
-            },
-            {
-              title: 'Mei Lun Yuen',
-              url: 'housing/mei-lun-yuen',
-            },
-            {
-              title: "Housing and Community Organizing in Chinatown Today",
-              url: "housing/housing-community-today"
-            }
-          ]
-        },
-        {
-          title: 'Arts & Culture',
-          url: 'arts-culture',
-          submenu: [
-            {
-              title: 'Kubla Khan Nightclub',
-              url: 'arts-culture/kubla-khan-nightclub'
-            }
-          ]
-        },
-        {
           title: 'Public Spaces',
           url: 'public-spaces',
           submenu: [
             {
-              title: 'Portsmouth Square',
-              url: 'public-spaces/portsmouth-square'
+              title: 'Betty Ann Ong Recreation Center',
+              url: 'public-spaces/betty-ann-ong-rec-center'
             },
             {
-              title: 'Willie Wong Playground',
-              url: 'public-spaces/willy-wong-playground'
+              title: 'Portsmouth Square',
+              url: 'public-spaces/portsmouth-square'
             },
             {
               title: "St Mary's Square",
               url: 'public-spaces/st-marys-square'
             },
             {
+              title: 'Willie Wong Playground',
+              url: 'public-spaces/willy-wong-playground'
+            },
+            {
               title: 'Woh Hei Yuen Park',
               url: 'public-spaces/woh-hei-yuen-park'
             },
-            {
-              title: 'Betty Ann Ong Recreation Center',
-              url: 'public-spaces/betty-ann-ong-rec-center'
-            }
           ]
         },
       ]
