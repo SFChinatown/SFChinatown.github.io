@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SFChinatown.github.io/precache-manifest.e813824c4941e6d3dee53b5fc673d10d.js"
+  "/SFChinatown.github.io/precache-manifest.e259d24fdac292ee856f7722146b9924.js"
 );
 
 workbox.clientsClaim();

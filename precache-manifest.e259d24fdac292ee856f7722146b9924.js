@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6b2a928b0911339ce619",
-    "url": "/SFChinatown.github.io/static/css/main.63a9e259.chunk.css"
+    "revision": "13ba3930bd4fcc7d71c8",
+    "url": "/SFChinatown.github.io/static/css/main.38f79458.chunk.css"
   },
   {
-    "revision": "6b2a928b0911339ce619",
-    "url": "/SFChinatown.github.io/static/js/main.6b2a928b.chunk.js"
+    "revision": "13ba3930bd4fcc7d71c8",
+    "url": "/SFChinatown.github.io/static/js/main.13ba3930.chunk.js"
   },
   {
     "revision": "9e6c96c48f2fd00bc38b",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/SFChinatown.github.io/static/media/logo.4314d152.svg"
   },
   {
-    "revision": "2d1ac8d90cee406437f84bd0644e9bfd",
+    "revision": "ba7896dd389d0d56045153574089680c",
     "url": "/SFChinatown.github.io/index.html"
   }
 ];
