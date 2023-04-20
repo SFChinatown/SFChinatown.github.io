@@ -11,7 +11,7 @@ const NavBar = () => {
         <nav className='nav-bar'>
             <div className='nav-elements'>
                 <div className="logo">
-                    <Link to="/"><Brand /></Link>
+                    <Link to="/#"><Brand /></Link>
                 </div>
                 <div className="nav-items">
                     <DropdownMenu

@@ -15,7 +15,7 @@ const DropdownMenu = ({ items, submenu }) => {
           </li>
         );
       } else {
-        return <li><a href={"/" + url}>{title}</a></li>;
+        return <li><a href={"/#/" + url}>{title}</a></li>;
       }
     };
 
