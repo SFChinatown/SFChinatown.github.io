@@ -13,7 +13,8 @@ const LauNichols = () => {
             </div>
            
             {/* TODO: Figure out cleaner way to do citations, maybe with a component? */}
-            <div className="citations">
+            <details className="citations">
+                <summary>References</summary>
                 <ul>
                     <li>
                         <sup>1</sup><it>SFUSD Bilingual Education Lau vs Nichols SFGTV San Francisco</it>, 2007. <a href="https://www.youtube.com/watch?v=cXhQrJ37gFE">https://www.youtube.com/watch?v=cXhQrJ37gFE</a>.
@@ -67,7 +68,7 @@ const LauNichols = () => {
                         <sup>17</sup>Ibid.
                     </li>
                 </ul>
-            </div>
+            </details>
             <Footer />
         </div>
     )

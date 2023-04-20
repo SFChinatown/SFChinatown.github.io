@@ -41,7 +41,7 @@ const Theme = () => {
                 }}
                 />
                 <Tile
-                header="Tenant Rights and Community Organizing"
+                header="Housing"
                 body={[
                     "International Hotel",
                     "Ping Yuen",
@@ -51,7 +51,7 @@ const Theme = () => {
                 image={{
                     link:"/tenants-community",
                     path:"test.png",
-                    alt:"Tenant Rights and Community Organizing theme"
+                    alt:"Housing theme"
                 }}
                 />
                 <Tile

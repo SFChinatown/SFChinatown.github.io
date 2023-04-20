@@ -20,55 +20,10 @@ const IHotel = () => {
                 <p>In an oral interview, Jeanette Lazam, an original tenant at the I-Hotel as a young organizer living in Manilatown, described the community as a family. “The minute you walked through the door and walked up the stairs, everybody was hanging out. And they’d say, have you eaten yet? … I believe I had 45 fathers and seven mothers when I lived here.” Despite most of the tenants being older, single men, “You were <it>never</it> alone,” Lazam said.<sup>6</sup></p>
                 <p>In 1968, Filipino residents still made up a majority of the I-Hotel residents, with a notable number of Chinese residents living there as well. The residents still worked primarily in the service industry, but also served as political leaders in Manilatown. Most of these residents were elderly, as the I-Hotel was one of few affordable housing options for low-income residents of Manilatown. The I-Hotel maintained its role as a central community space for the San Francisco Filipino community.<sup>7</sup></p>
             </div>
-            <div className='ccsf-tiles'>
-                <Tile
-                header="CAA"
-                body={[
-                    "Interview"
-                ]}
-                image={{
-                    link:"/education/ccsf-chinatown/caa-interview",
-                    path:"test.png",
-                    alt:"CAA Interview"
-                }}
-                />
-                <Tile
-                header="Lau v Nichols"
-                body={[
-                    "Write-up"
-                ]}                
-                image={{
-                    link:"/education/ccsf-chinatown/lau-nichols",
-                    path:"test.png",
-                    alt:"Lau v Nichols"
-                }}
-                />
-                <Tile
-                header="Model Minority"
-                body={[
-                    "Model Minority"
-                ]}                               
-                image={{
-                    link:"/education/ccsf-chinatown/model-minority",
-                    path:"test.png",
-                    alt:"Model Minority"
-                }}
-                />
-                <Tile
-                header="CCSF Amenities & Community"
-                body={[
-                    "CCSF Amenities",
-                    "CCSF Community"
-                ]}    
-                image={{
-                    link:"/education/ccsf-chinatown/amenities",
-                    path:"test.png",
-                    alt:"Amenities"
-                }}
-                />
-            </div>
+            
             {/* TODO: Figure out cleaner way to do citations, maybe with a component? */}
-            <div className="citations">
+            <details className="citations">
+                <summary>References</summary>
                 <ul>
                     <li>
                         <sup>1</sup>Estella Habal, <it>San Francisco's International Hotel: Mobilizing the Filipino American Community in the Anti-Eviction Movement</it> (Philadelphia: Temple University Press, 2007), 9.
@@ -140,7 +95,56 @@ const IHotel = () => {
                         <sup>23</sup>Ibid.
                     </li>
                 </ul>
+            </details>
+
+            <div className='ccsf-tiles'>
+                <Tile
+                header="CAA"
+                body={[
+                    "Interview"
+                ]}
+                image={{
+                    link:"/education/ccsf-chinatown/caa-interview",
+                    path:"test.png",
+                    alt:"CAA Interview"
+                }}
+                />
+                <Tile
+                header="Lau v Nichols"
+                body={[
+                    "Write-up"
+                ]}                
+                image={{
+                    link:"/education/ccsf-chinatown/lau-nichols",
+                    path:"test.png",
+                    alt:"Lau v Nichols"
+                }}
+                />
+                <Tile
+                header="Model Minority"
+                body={[
+                    "Model Minority"
+                ]}                               
+                image={{
+                    link:"/education/ccsf-chinatown/model-minority",
+                    path:"test.png",
+                    alt:"Model Minority"
+                }}
+                />
+                <Tile
+                header="CCSF Amenities & Community"
+                body={[
+                    "CCSF Amenities",
+                    "CCSF Community"
+                ]}    
+                image={{
+                    link:"/education/ccsf-chinatown/amenities",
+                    path:"test.png",
+                    alt:"Amenities"
+                }}
+                />
             </div>
+            
             <Footer />
         </div>
     )
