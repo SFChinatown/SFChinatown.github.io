@@ -10,7 +10,7 @@ const DropdownMenu = ({ items, submenu }) => {
       if (menuItem.submenu && menuItem.submenu.length > 0) {
         return (
           <li>
-            <a href={"/" + url}>{title}</a>
+            <a href={"/#/" + url}>{title}</a>
             <DropdownMenu items={menuItem.submenu} submenu={true} />
           </li>
         );
