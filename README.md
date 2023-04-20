@@ -1,2 +1,0 @@
-# SFChinatown.github.io
-SFChinatown
