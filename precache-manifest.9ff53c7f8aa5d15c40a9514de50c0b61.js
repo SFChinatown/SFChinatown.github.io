@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "2763ca9295bc02b2a457",
-    "url": "/static/css/main.2f8f14cb.chunk.css"
+    "revision": "65c1521a961eef6bb260",
+    "url": "/static/css/main.d8e8c49b.chunk.css"
   },
   {
-    "revision": "2763ca9295bc02b2a457",
-    "url": "/static/js/main.2763ca92.chunk.js"
+    "revision": "65c1521a961eef6bb260",
+    "url": "/static/js/main.65c1521a.chunk.js"
   },
   {
-    "revision": "9e6c96c48f2fd00bc38b",
-    "url": "/static/js/1.9e6c96c4.chunk.js"
+    "revision": "676c8d3e0fc45ad1eec8",
+    "url": "/static/js/1.676c8d3e.chunk.js"
   },
   {
-    "revision": "bdfb173f98ac8b74287f",
-    "url": "/static/css/2.9f8f267d.chunk.css"
+    "revision": "3936fb1ad4cb7b02e809",
+    "url": "/static/css/2.689eccd1.chunk.css"
   },
   {
-    "revision": "bdfb173f98ac8b74287f",
-    "url": "/static/js/2.bdfb173f.chunk.js"
+    "revision": "3936fb1ad4cb7b02e809",
+    "url": "/static/js/2.3936fb1a.chunk.js"
   },
   {
-    "revision": "ec403c2e62495e37cfd2",
-    "url": "/static/js/runtime~main.ec403c2e.js"
+    "revision": "3c07f2ce7baf4108ad6b",
+    "url": "/static/js/runtime~main.3c07f2ce.js"
   },
   {
     "revision": "ace6394f3026893ba07f32faed7c905b",
@@ -76,6 +76,18 @@ self.__precacheManifest = [
     "url": "/static/media/I-Hotel_2.85b2a23b.jpg"
   },
   {
+    "revision": "a3dbddccac1ba6774bf5089cff6da907",
+    "url": "/static/media/KK_1.a3dbddcc.jpg"
+  },
+  {
+    "revision": "b13dac430fa80bd79a8ef05713201edf",
+    "url": "/static/media/KK_2.b13dac43.jpg"
+  },
+  {
+    "revision": "fc96a4355bdaffc30efdc814a39c5058",
+    "url": "/static/media/KK_3.fc96a435.jpg"
+  },
+  {
     "revision": "76c923312f0f0c8865e60ce03e0ed933",
     "url": "/static/media/header.76c92331.svg"
   },
@@ -120,7 +132,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo.4314d152.svg"
   },
   {
-    "revision": "1599d8112934ec4aeabecd1c3659c93b",
+    "revision": "c1730162c8bd7fc45982d0dd22f251f7",
     "url": "/index.html"
   }
 ];
