@@ -1,4 +1,4 @@
-.intro > img {
+.ihotel-intro > img {
     margin: 15px;
 }
 .vertical-img {
@@ -10,7 +10,7 @@
     width: 80% !important;
 }
 
-.intro :not(h2, h3, img, sup, a) {
+.ihotel-intro :not(h2, h3, img, sup, a) {
     margin: 0 100px;
     text-align: left;
 }

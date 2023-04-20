@@ -9,7 +9,7 @@ const IHotel = () => {
             <div className='header'>
                 <img src={require('../../assets/images/test.png')}/>
             </div>
-            <div className="intro">
+            <div className="ihotel-intro">
                 <h2>Origins of the International Hotel</h2>
                 <p>Originally built in 1854, San Francisco’s International Hotel spanned three locations in its over 150 years of history, and was the site of one of the Asian American Movement’s most iconic struggles in the 1970s. For the first 20 years of its life, the hotel was located on Jackson Street; it moved to 848 Kearny Street in 1873. In 1906, the hotel building was destroyed by a fire. The rebuilt I-Hotel was the focal point of the 1960s and 70s anti-eviction protests<sup>1</sup>. Standing at 3 stories tall, this new I-Hotel contained 184 residential rooms for tenants to live in, with communal kitchens and bathrooms for residents to share. Additional stores and businesses were located on the ground floor of the building.<sup>2</sup></p>
                 <img src={require('../../assets/images/ihotel/I-Hotel_1.jpeg')} className="vertical-img"/>

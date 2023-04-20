@@ -19,54 +19,96 @@ export const NavItemsList = [
               title: 'CCSF Chinatown',
               url: 'education/ccsf-chinatown',
             },
+            {
+              title: 'Lau Nichols',
+              url: 'education/lau-nichols',
+            },
+            {
+              title: 'Chinese for Affirmative Action',
+              url: 'education/cfaa',
+            },
           ]
         },
         {
           title: 'Public Health',
           url: 'public-health',
+          submenu: [
+            {
+              title: 'Chinese Hospital',
+              url: 'public-health/chinese-hospital',
+            },
+            {
+              title: 'Asian Mental Health',
+              url: 'public-health/asian-mental-health',
+            },
+            {
+              title: 'Traditional Medicine',
+              url: 'public-health/traditional-medicine',
+            },
+            {
+              title: "Women's Health",
+              url: "public-health/womens-health"
+            }
+          ]
+        },
+        {
+          title: 'Tenant Rights & Community Organizing',
+          url: 'tenants-community',
+          submenu: [
+            {
+              title: 'International Hotel',
+              url: 'tenants-community/i-hotel',
+            },
+            {
+              title: 'Ping Yuen',
+              url: 'tenants-community/ping-yuen',
+            },
+            {
+              title: 'Mei Lun Yuen',
+              url: 'tenants-community/mei-lun-yuen',
+            },
+            {
+              title: "Housing and Community Organizing in Chinatown Today",
+              url: "tenants-community/housing-community-today"
+            }
+          ]
+        },
+        {
+          title: 'Arts & Culture',
+          url: 'arts-culture',
+          submenu: [
+            {
+              title: 'Kubla Khan Nightclub',
+              url: 'arts-culture/kubla-khan-nightclub'
+            }
+          ]
         },
         {
           title: 'Public Spaces',
           url: 'public-spaces',
+          submenu: [
+            {
+              title: 'Portsmouth Square',
+              url: 'public-spaces/portsmouth-square'
+            },
+            {
+              title: 'Willie Wong Playground',
+              url: 'public-spaces/willy-wong-playground'
+            },
+            {
+              title: "St Mary's Square",
+              url: 'public-spaces/st-marys-square'
+            },
+            {
+              title: 'Woh Hei Yuen Park',
+              url: 'public-spaces/woh-hei-yuen-park'
+            },
+            {
+              title: 'Betty Ann Ong Recreation Center',
+              url: 'public-spaces/betty-ann-ong-rec-center'
+            }
+          ]
         },
       ]
     },
   ];
-
-  // ReactDOM.render(<DropdownMenu config={[
-  //   {
-  //     "title": "Option 1",
-  //     "submenu": null
-  //   },
-  //   {
-  //     "title": "Option 2",
-  //     "submenu": [
-  //       {
-  //         "title": "Option 2.1",
-  //         "submenu": [
-  //           {
-  //             "title": "Option 2.1.1",
-  //             "submenu": null
-  //           },
-  //           {
-  //             "title": "Option 2.1.2",
-  //             "submenu": null
-  //           }
-  //         ]
-  //       },
-  //       {
-  //         "title": "Option 2.2",
-  //         "submenu": [
-  //           {
-  //             "title": "Option 2.2.1",
-  //             "submenu": null
-  //           },
-  //           {
-  //             "title": "Option 2.2.2",
-  //             "submenu": null
-  //           }
-  //         ]
-  //       }
-  //     ]
-  //   }
-  // ]}/>, document.querySelector("#app"))

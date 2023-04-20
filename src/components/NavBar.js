@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./NavBar.css"
 import { ReactComponent as Brand } from '../assets/icons/logo.svg'
 import DropdownMenu from './DropdownMenu';
+import "./DropdownMenu.css"
 import { NavItemsList } from './NavItemsList';
 
 const NavBar = () => {
@@ -12,12 +13,12 @@ const NavBar = () => {
                 <div className="logo">
                     <Link to="/"><Brand /></Link>
                 </div>
-                <ul className="nav-items">
+                <div className="nav-items">
                     <DropdownMenu
                         items={NavItemsList}
                         submenu={false}
                     />
-                </ul>
+                </div>
             </div>
         </nav>
     )

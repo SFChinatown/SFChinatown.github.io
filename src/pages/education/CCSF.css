@@ -1,6 +1,6 @@
 
-.intro {
-    margin: 0 100px !important;
+.ccsf-intro {
+    margin: 0 150px;
     padding-top: 30px;
 }
 
@@ -21,8 +21,8 @@ h2, h3, .ccsf-tiles {
     object-fit: cover;
   }
 
-.intro > img {
-    width: 80%;
+.ccsf-intro > img {
+    width: 100%;
 }
 
 .citations {
@@ -36,4 +36,8 @@ h2, h3, .ccsf-tiles {
     gap: 30px;
     justify-content: center;
     margin: 50px 0;
+}
+
+p {
+    text-align: left;
 }

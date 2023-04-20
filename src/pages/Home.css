@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-.intro-header {
+.intro > .intro-header {
   margin-bottom: 30px;
   font-weight: normal;
 }

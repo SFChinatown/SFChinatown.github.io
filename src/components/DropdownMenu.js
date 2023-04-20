@@ -10,12 +10,12 @@ const DropdownMenu = ({ items, submenu }) => {
       if (menuItem.submenu && menuItem.submenu.length > 0) {
         return (
           <li>
-            <a href={url}>{title}</a>
+            <a href={"/" + url}>{title}</a>
             <DropdownMenu items={menuItem.submenu} submenu={true} />
           </li>
         );
       } else {
-        return <li><a href={url}>{title}</a></li>;
+        return <li><a href={"/" + url}>{title}</a></li>;
       }
     };
 
@@ -25,7 +25,7 @@ const DropdownMenu = ({ items, submenu }) => {
     });
   
     return (
-        <ul className={submenu ? "dropdown-menu" : ""}>
+        <ul className={submenu ? "submenu" : "menu"}>
             {options}
         </ul>
     );
