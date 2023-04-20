@@ -1,7 +1,7 @@
 {
   "name": "sf-chinatown",
   "version": "0.1.0",
-  "homepage": "https://SFChinatown.github.io/SFChinatown.github.io",
+  "homepage": "https://SFChinatown.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
