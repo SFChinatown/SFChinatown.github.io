@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import NavBar from './components/NavBar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Theme from './pages/Theme';
@@ -16,7 +16,7 @@ import IHotel from './pages/tenants-community/IHotel';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
@@ -52,7 +52,7 @@ function App() {
           {/* Route exact path="/public-spaces/betty-ann-ong-rec-center" element={<BAORecCent />}></Route> */}
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
