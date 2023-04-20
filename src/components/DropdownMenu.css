@@ -7,7 +7,7 @@
     display: inline-block;
     position: relative;
     width: 200px;
-    line-height: 35px;
+    padding: 10px;
     text-decoration: none;
     background-color: #fcfcfc;
     text-align: center;
@@ -36,7 +36,6 @@ li > a:hover {
     right: 0;
     left: auto;
     z-index: 9999;
-    padding: 0;
     display: none
 }
 
@@ -54,4 +53,5 @@ li > a:hover {
     left: 200px;
     top: 0px;
     display: block;
+    margin-left: -32px;
 }

@@ -35,11 +35,11 @@ function App() {
           {/* <Route exact path="/public-health/traditional-medicine" element={<TradMed />}></Route> */}
           {/* <Route exact path="/public-health/womens-health" element={<WomensHealth />}></Route> */}
 
-          {/* Tenant Rights & Community Organising */}
-          <Route exact path="/tenants-community/i-hotel" element={<IHotel />}></Route>
-          {/* Route exact path="/tenants-community/ping-yuen" element={<PingYuen />}></Route> */}
-          {/* Route exact path="/tenants-community/mei-lun-yuen" element={<MeiLunYuen />}></Route> */}
-          {/* Route exact path="/tenants-community/housing-community-today" element={<HousingCom />}></Route> */}
+          {/* Housing */}
+          <Route exact path="/housing/i-hotel" element={<IHotel />}></Route>
+          {/* Route exact path="/housing/ping-yuen" element={<PingYuen />}></Route> */}
+          {/* Route exact path="/housing/mei-lun-yuen" element={<MeiLunYuen />}></Route> */}
+          {/* Route exact path="/housing/housing-community-today" element={<HousingCom />}></Route> */}
 
           {/* Arts & Culture */}
           {/* Route exact path="/arts-culture/kubla-khan-nightclub" element={<KublaKhan />}></Route> */}

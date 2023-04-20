@@ -1,15 +1,15 @@
 export const NavItemsList = [
     {
       title: 'About Us',
-      url: '/about-us',
+      url: 'about-us',
     },
     {
       title: 'Interactive Map',
-      url: '/interactive-map',
+      url: 'interactive-map',
     },
     {
       title: 'Main Themes',
-      url: '/main-themes',
+      url: 'main-themes',
       submenu: [
         {
           title: 'Education',
@@ -52,24 +52,24 @@ export const NavItemsList = [
           ]
         },
         {
-          title: 'Tenant Rights & Community Organizing',
-          url: 'tenants-community',
+          title: 'Housing',
+          url: 'housing',
           submenu: [
             {
               title: 'International Hotel',
-              url: 'tenants-community/i-hotel',
+              url: 'housing/i-hotel',
             },
             {
               title: 'Ping Yuen',
-              url: 'tenants-community/ping-yuen',
+              url: 'housing/ping-yuen',
             },
             {
               title: 'Mei Lun Yuen',
-              url: 'tenants-community/mei-lun-yuen',
+              url: 'housing/mei-lun-yuen',
             },
             {
               title: "Housing and Community Organizing in Chinatown Today",
-              url: "tenants-community/housing-community-today"
+              url: "housing/housing-community-today"
             }
           ]
         },

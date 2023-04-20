@@ -166,22 +166,22 @@ const Theme = () => {
                                 In dictum non consectetur a erat nam at lectus. Ac tincidunt vitae semper quis. Etiam sit amet nisl purus in mollis. Urna cursus eget nunc scelerisque viverra mauris. Dui accumsan sit amet nulla. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Tellus elementum sagittis vitae et leo duis ut diam. Eu augue ut lectus arcu bibendum at. In tellus integer feugiat scelerisque varius morbi. Nisl rhoncus mattis rhoncus urna neque viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl nisi scelerisque eu ultrices. Orci ac auctor augue mauris."
                             />
                             <div className="buttons">
-                                <Link to="/i-hotel">
+                                <Link to="/housing/i-hotel">
                                     <button className="aux-site-btn">
                                         International Hotel
                                     </button>
                                 </Link>
-                                <Link to="/ping-yuen">
+                                <Link to="/housing/ping-yuen">
                                     <button className="aux-site-btn">
                                         Ping Yuen
                                     </button>
                                 </Link>
-                                <Link to="/mei-lun-yuen">
+                                <Link to="/housing/mei-lun-yuen">
                                     <button className="aux-site-btn">
                                         Mei Lun Yuen
                                     </button>
                                 </Link>
-                                <Link to="/housing-community-today">
+                                <Link to="/housing/housing-community-today">
                                     <button className="aux-site-btn">
                                         Housing and Community Organizing in Chinatown Today
                                     </button>
@@ -207,7 +207,7 @@ const Theme = () => {
                                 In dictum non consectetur a erat nam at lectus. Ac tincidunt vitae semper quis. Etiam sit amet nisl purus in mollis. Urna cursus eget nunc scelerisque viverra mauris. Dui accumsan sit amet nulla. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Tellus elementum sagittis vitae et leo duis ut diam. Eu augue ut lectus arcu bibendum at. In tellus integer feugiat scelerisque varius morbi. Nisl rhoncus mattis rhoncus urna neque viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl nisi scelerisque eu ultrices. Orci ac auctor augue mauris."
                             />
                             <div className="buttons">
-                                <Link to="/kubla-khan-nightclub">
+                                <Link to="/arts-culture/kubla-khan-nightclub">
                                     <button className="aux-site-btn">
                                         Kubla Khan Nightclub
                                     </button>
@@ -227,27 +227,27 @@ const Theme = () => {
                                 In dictum non consectetur a erat nam at lectus. Ac tincidunt vitae semper quis. Etiam sit amet nisl purus in mollis. Urna cursus eget nunc scelerisque viverra mauris. Dui accumsan sit amet nulla. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Tellus elementum sagittis vitae et leo duis ut diam. Eu augue ut lectus arcu bibendum at. In tellus integer feugiat scelerisque varius morbi. Nisl rhoncus mattis rhoncus urna neque viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl nisi scelerisque eu ultrices. Orci ac auctor augue mauris."
                             />
                             <div className="buttons">
-                                <Link to="/portsmouth-square">
+                                <Link to="/public-space/portsmouth-square">
                                     <button className="aux-site-btn">
                                         Portsmouth Square
                                     </button>
                                 </Link>
-                                <Link to="/willie-wong-playground">
+                                <Link to="/public-space/willie-wong-playground">
                                     <button className="aux-site-btn">
                                         Willie Wong Playground
                                     </button>
                                 </Link>
-                                <Link to="/st-marys-square">
+                                <Link to="/public-space/st-marys-square">
                                     <button className="aux-site-btn">
                                         St. Mary's Square
                                     </button>
                                 </Link>
-                                <Link to="/woh-hei-yuen-park">
+                                <Link to="/public-space/woh-hei-yuen-park">
                                     <button className="aux-site-btn">
                                         Woh Hei Yuen Park
                                     </button>
                                 </Link>
-                                <Link to="/betty-ann-ong-rec-center">
+                                <Link to="/public-space/betty-ann-ong-rec-center">
                                     <button className="aux-site-btn">
                                         Betty Ann Ong Recreation Center
                                     </button>
