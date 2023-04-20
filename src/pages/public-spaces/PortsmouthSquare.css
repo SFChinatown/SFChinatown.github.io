@@ -1,0 +1,34 @@
+
+.portsmouth-intro {
+    margin: 0 150px;
+    padding-top: 30px;
+}
+
+h2, h3 {
+    margin: 0 100px;
+}
+
+.header > img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+  }
+
+.portsmouth-intro > img {
+    width: 100%;
+}
+
+details > summary, details > ul {
+    text-align: left;
+    padding: 0 100px;
+}
+
+details > summary {
+    font-size: 23px;
+}
+
+p {
+    text-align: left;
+}

@@ -17,6 +17,9 @@ import IHotel from './pages/housing/IHotel';
 // Culture pages
 import KublaKhan from './pages/culture/KublaKhan';
 
+// Public Places
+import PortsmouthSquare from './pages/public-spaces/PortsmouthSquare';
+
 function App() {
   return (
     <div className="App">
@@ -49,7 +52,7 @@ function App() {
           <Route exact path="/culture/kubla-khan-nightclub" element={<KublaKhan />}></Route>
 
           {/* Public Spaces */}
-          {/* Route exact path="/public-spaces/portsmouth-square" element={<PMSquare />}></Route> */}
+          <Route exact path="/public-spaces/portsmouth-square" element={<PortsmouthSquare />}></Route>
           {/* Route exact path="/public-spaces/willy-wong-playground" element={<WillyWong />}></Route> */}
           {/* Route exact path="/public-spaces/st-marys-square" element={<StMarys />}></Route> */}
           {/* Route exact path="/public-spaces/woh-hei-yuen-park" element={<WHYPark />}></Route> */}

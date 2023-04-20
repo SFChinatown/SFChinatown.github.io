@@ -112,6 +112,17 @@ const Home = () => {
             </div>
             <div className='tiles'>
                 <Tile
+                header="Culture"
+                body={[
+                    "Kubla Khan Nightclub"
+                ]}    
+                image={{
+                    link:"/culture",
+                    path:"test.png",
+                    alt:"Arts & culture theme"
+                }}
+                />
+                <Tile
                 header="Education"
                 body={[
                     "CCSF - Chinatown",
@@ -124,10 +135,24 @@ const Home = () => {
                 }}
                 />
                 <Tile
+                header="Housing"
+                body={[
+                    "Housing and Community Organizing in Chinatown Today",
+                    "International Hotel",
+                    "Mei Lun Yuen",
+                    "Ping Yuen",
+                ]}                               
+                image={{
+                    link:"/housing",
+                    path:"test.png",
+                    alt:"Housing theme"
+                }}
+                />
+                <Tile
                 header="Public Health"
                 body={[
-                    "Chinese Hospital",
                     "Asian Mental Health",
+                    "Chinese Hospital",
                     "Traditional Medicine",
                     "Women’s Health"
                 ]}                
@@ -138,52 +163,18 @@ const Home = () => {
                 }}
                 />
                 <Tile
-                header="Housing"
-                body={[
-                    "International Hotel",
-                    "Ping Yuen",
-                    "Mei Lun Yuen",
-                    "Housing and Community Organizing in Chinatown Today"
-                ]}                               
-                image={{
-                    link:"/tenant-rights-community",
-                    path:"test.png",
-                    alt:"Housing theme"
-                }}
-                />
-                <Tile
-                header="Arts & Culture"
-                body={[
-                    "Kubla Khan Nightclub"
-                ]}    
-                image={{
-                    link:"/arts-culture",
-                    path:"test.png",
-                    alt:"Arts & culture theme"
-                }}
-                />
-                <Tile
                 header="Public Space"
                 body={[
+                    "Betty Ann Ong Recreation Center",
                     "Portsmouth Square",
-                    "Willie Wong Playground",
                     "St. Mary's Square",
+                    "Willie Wong Playground",
                     "Woh Hei Yuen Park",
-                    "Betty Ann Ong Recreation Center"
                 ]}                    
                 image={{
                     link:"/public-space",
                     path:"test.png",
                     alt:"Public Space theme"
-                }}
-                />
-                <Tile
-                header="Location #6"
-                body={[]}
-                image={{
-                    link:"/test-location",
-                    path:"test.png",
-                    alt:"test"
                 }}
                 />
             </div>
