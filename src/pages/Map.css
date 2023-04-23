@@ -1,0 +1,30 @@
+.overview {
+  background-color: #F5F5F5;
+  padding: 50px 40px;
+  width: 100%;
+}
+
+.description {
+  float: left; 
+  width: 50%; 
+}
+
+.overview-img {
+  display:flex;
+  flex-direction:column;
+}
+
+.overview-img  > img {
+  width: 100%;
+  padding-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.colophon {
+  background-color: #F5F5F5;
+  padding: 50px;
+}
