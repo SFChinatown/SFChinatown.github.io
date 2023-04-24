@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import "./CFAA.css";
+import "../PageStyle.css";
 
 const CFAA = () => {
     return (

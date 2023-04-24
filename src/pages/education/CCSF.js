@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../../components/Footer';
 import "./CCSF.css";
 import Tile from '../../components/Tile';
+import "../PageStyle.css";
 
 const CCSF = () => {
     return (

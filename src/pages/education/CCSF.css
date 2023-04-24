@@ -25,15 +25,6 @@ h2, h3, .ccsf-tiles {
     width: 100%;
 }
 
-details > summary, details > ul {
-    text-align: left;
-    padding: 0 100px;
-}
-
-details > summary {
-    font-size: 23px;
-}
-
 .ccsf-tiles {
     display: flex;
     flex-wrap: wrap;

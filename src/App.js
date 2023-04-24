@@ -5,7 +5,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Theme from './pages/Theme';
-import Theme from './pages/Map';
+import Map from './pages/Map';
 
 // Education pages
 import CCSF from './pages/education/CCSF';

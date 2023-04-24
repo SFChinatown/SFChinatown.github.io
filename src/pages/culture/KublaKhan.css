@@ -12,15 +12,6 @@ h2, h3 {
     width: 80%;
 }
 
-details > summary, details > ul {
-    text-align: left;
-    padding: 0 100px;
-}
-
-details > summary {
-    font-size: 23px;
-}
-
 .ccsf-tiles {
     display: flex;
     flex-wrap: wrap;
@@ -31,22 +22,6 @@ details > summary {
 
 p {
     text-align: left;
-}
-
-.imgText {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-}
-
-.imgText > figure > img {
-    flex: 1;
-    width: 55vw;
-}
-
-.imgText > p {
-    flex: 1;
 }
 
 .quote {

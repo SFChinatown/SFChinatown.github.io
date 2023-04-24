@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import "./LauNichols.css";
-import Tile from '../../components/Tile';
+import "../PageStyle.css";
 
 const LauNichols = () => {
     return (

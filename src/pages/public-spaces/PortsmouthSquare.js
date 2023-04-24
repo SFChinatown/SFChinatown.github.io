@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import "./PortsmouthSquare.css";
+import "../PageStyle.css";
 
 const PortsmouthSquare = () => {
     return (
@@ -17,7 +18,7 @@ const PortsmouthSquare = () => {
                 <br />
                 <p>The creation of Portsmouth Square dates back to the early 19th century, even before San Francisco was officially founded, and the space has witnessed many critical turning points in history. It was the site of the first raising of the American flag, and where the first gold discovery in the Sierras and California’s official admission to the United States was announced.<sup>2</sup> In the 1906 earthquake and fire, Portsmouth Square served as a congregation area where community members could safely gather away from shattered infrastructure — providing temporary shelter for the displaced, a cemetery for earthquake victims, and a place for troops to locate as they assisted in reconstruction efforts.<sup>3</sup></p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-2.jpg')} />
+                    <img src={require('../../assets/images/portsmouth/PMS-2.jpg')} className='vertical-img'/>
                     <figcaption>
                         Portsmouth Square after the 1906 earthquake<sup>4</sup>
                     </figcaption>
@@ -90,7 +91,7 @@ const PortsmouthSquare = () => {
                 <p>Funds were requested by the CBPRC (Committee for Better Parks and Recreation in Chinatown) during the Community Development public hearings in 1977 to expand the Portsmouth Square children’s play area. The Office of Community Development granted $50,000 for the improvements.<sup>29</sup> After receiving the necessary funds, the CBPRC began to seek community input from residents, especially children, to help determine what improvements and recreational needs to prioritize.<sup>30</sup> </p>
                 <p>In 1978, Jennie Lew, CNIRC’s technical advisor, created a questionnaire to gather data on the needs and interests of children in Chinatown to provide a basis for the preliminary design development of Portsmouth Square’s tot lot. The survey collected data on the primary users of the play area and the preferred placement of seating, seating in relation to sunlight, surfaces for the play zones, types of activities in the play zones, etc. <sup>31</sup> Small sketches were shown to people to portray the different types of designs.<sup>32</sup></p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-10.jpg')} />
+                    <img src={require('../../assets/images/portsmouth/PMS-10.jpg')} className='vertical-img'/>
                     <figcaption>
                         Footbridge linking Portsmouth Square and Hilton Hotel/Chinese Culture Center<sup>33</sup>
                     </figcaption>
@@ -124,22 +125,22 @@ const PortsmouthSquare = () => {
                 <summary>References</summary>
                 <ul>
                     <li>
-                        <sup>1</sup> “Portsmouth Square Community Based Transportation Plan,” SFCTA, n.d., https://www.sfcta.org/projects/portsmouth-square.
+                        <sup>1</sup> “Portsmouth Square Community Based Transportation Plan,” SFCTA, n.d., <a href="https://www.sfcta.org/projects/portsmouth-square">https://www.sfcta.org/projects/portsmouth-square</a>.
                     </li>
                     <li>
-                        <sup>2</sup> “Portsmouth Square,” San Francisco Park Alliance, n.d., https://www.sfparksalliance.org/our-parks/parks/portsmouth-square#:~:text=On%20July%209%2C%201846%2C%20the,the%20southwest%20corner%20of%20plaza.
+                        <sup>2</sup> “Portsmouth Square,” San Francisco Park Alliance, n.d., <a href="https://www.sfparksalliance.org/our-parks/parks/portsmouth-square#:~:text=On%20July%209%2C%201846%2C%20the,the%20southwest%20corner%20of%20plaza">https://www.sfparksalliance.org/our-parks/parks/portsmouth-square#:~:text=On%20July%209%2C%201846%2C%20the,the%20southwest%20corner%20of%20plaza</a>.
                     </li>
                     <li>
-                        <sup>3</sup> “San Francisco Chinantown Portsmouth Square and Vicinity Existing Conditions Report,” San Francisco Planning Department, December 2014, https://sfplanning.org/sites/default/files/documents/citywide/portsmouth-square/Portsmouth_Square_Final_Report_lores.pdf#page=111.
+                        <sup>3</sup> “San Francisco Chinantown Portsmouth Square and Vicinity Existing Conditions Report,” San Francisco Planning Department, December 2014, <a href="https://sfplanning.org/sites/default/files/documents/citywide/portsmouth-square/Portsmouth_Square_Final_Report_lores.pdf#page=111">https://sfplanning.org/sites/default/files/documents/citywide/portsmouth-square/Portsmouth_Square_Final_Report_lores.pdf#page=111</a>.
                     </li>
                     <li>
-                        <sup>4</sup> Marisol Medina-Cadena, “The Rich History of San Francisco's First Plaza,” KQED, Nov 21, 2019, https://www.kqed.org/news/11787679/the-rich-history-of-san-franciscos-first-plaza.
+                        <sup>4</sup> Marisol Medina-Cadena, “The Rich History of San Francisco's First Plaza,” KQED, Nov 21, 2019, <a href="https://www.kqed.org/news/11787679/the-rich-history-of-san-franciscos-first-plaza">https://www.kqed.org/news/11787679/the-rich-history-of-san-franciscos-first-plaza</a>.
                     </li>
                     <li>
                         <sup>5</sup> Photo by Kenny Li.
                     </li>
                     <li>
-                        <sup>6</sup> “San Francisco Chinantown Portsmouth Square and Vicinity Existing Conditions Report,” San Francisco Planning Department, December 2014, 15, https://sfplanning.org/sites/default/files/documents/citywide/portsmouth-square/Portsmouth_Square_Final_Report_lores.pdf#page=111.
+                        <sup>6</sup> “San Francisco Chinantown Portsmouth Square and Vicinity Existing Conditions Report,” San Francisco Planning Department, December 2014, 15, <a href="https://sfplanning.org/sites/default/files/documents/citywide/portsmouth-square/Portsmouth_Square_Final_Report_lores.pdf#page=111">https://sfplanning.org/sites/default/files/documents/citywide/portsmouth-square/Portsmouth_Square_Final_Report_lores.pdf#page=111</a>.
                     </li>
                     <li>
                         <sup>7</sup> Mary Burk and Adah Bakalinsky, Stairway Walks in San Francisco: The Joy of Urban Exploring, (Wilderness Press, 2018), 12.
@@ -151,68 +152,97 @@ const PortsmouthSquare = () => {
                         <sup>9</sup> “San Francisco Chinantown Portsmouth Square and Vicinity Existing Conditions Report,” San Francisco Planning Department, December 2014, 22.
                     </li>
                     <li>
-                        <sup>10</sup> L.S. Slevin, “Sailing ship "U.S.S. Portsmouth,"” San Francisco History Center, San Francisco Public Library, 1843-1915, http://sflib1.sfpl.org:82/record=b1035677.
-                    </li><li><sup>11</sup> “THE GRAND PLAZA, SAN FRANCISCO, 1850,” Crockerart Art Museum, 1850, https://www.crockerart.org/collections/the-peter-t-pope-early-california-collection/artworks/the-grand-plaza-san-francisco.
-
-                    </li><li><sup>12</sup> Allen G. Pastron, and Eugene M. Hattori, eds, The Hoff Store site and gold rush merchandise from San Francisco, California, Vol. 7. (Germantown: Society for Historical Archaeology, 1990), 7.
-
-                    </li><li><sup>13</sup> “Portsmouth Square in 1867,” San Francisco History Center, San Francisco Public Library, 1867, http://sflib1.sfpl.org:82/record=b1002203.
-
-                    </li><li><sup>14</sup> Mary Burk and Adah Bakalinsky, Stairway Walks in San Francisco: The Joy of Urban Exploring, (Wilderness Press, 2018), 16.
-
-                    </li><li><sup>15</sup> Alice Barkley (former City Attorney to the Planning Commission), in discussion with Harrington Fan, Jennie Lew, Caroline Lu, and Fiona Yim, San Francisco, CA, March 2023.
-
-                    </li><li><sup>16</sup> Pedestrian Bridge Connecting Portsmouth Square to Hilton Hotel. March 25, 2023. Photograph by Fiona Yim.
-
-                    </li><li><sup>17</sup> “Arts & Culture Nonprofit: Chinese Culture Center of San Francisco: California,” CCC San Francisco, n.d., https://www.cccsf.us/.
-
-                    </li><li><sup>18</sup> Katherine Kam, “Families Live Jammed into Chinatown Rooms, with No Hope of Leaving,” San Francisco Chronicle, November 30, 2015, https://www.sfchronicle.com/bayarea/article/Families-live-jammed-into-Chinatown-rooms-with-6663902.php.
-
-                    </li><li><sup>19</sup> “Portsmouth Square Master Plan,” n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>20</sup> Ibid.
-
-                    </li><li><sup>21</sup> Michael Williams, “S.F. Community Leaders Rally at Portsmouth Square to Denounce Anti-Asian American Violence,” San Francisco Chronicle, March 23, 2021, https://www.sfchronicle.com/local/article/S-F-officials-Asian-American-community-leaders-16044538.php.
-
-                    </li><li><sup>22</sup> Karen Umemoto, “‘On Strike!’ San Francisco State College Strike, 1968–69: The Role of Asian American Students,” Amerasia Journal 15, no. 1 (January 1989): 3–41, https://doi.org/10.17953/amer.15.1.7213030j5644rx25.
-
-                    </li><li><sup>23</sup> Beverly Karnatz (former CBPRC member), in discussion with Jennie Lew, Kenny Li, Caroline Lu, Terry Ow-Wing and Fiona Yim, San Francisco, CA, March 2023.
-
-                    </li><li><sup>24</sup> “Portsmouth Square: A Historic Hub And Community Centerpiece,” Hoodline, May 29, 2016, https://hoodline.com/2016/05/portsmouth-square-a-historic-hub-and-community-centerpiece/.
-
-                    </li><li><sup>25</sup> “Fact Sheet: Open Space in Chinatown”, n.d., box 1, folder 4, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>26</sup> “Amendment to the City Planning Code and Zoning Map to Reduce Height Limits”, n.d., box 2, folder 2, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>27</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>28</sup> Lizzie Johnson, “Changes could be in store Portsmouth Square, SF’s oldest plaza,” SFGATE, April 28, 2017, https://www.sfgate.com/bayarea/article/Changes-could-be-in-store-Portsmouth-Square-11106856.php.
-
-                    </li><li><sup>29</sup> “CNIRC Survey”, n.d., box 1, folder 6, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>30</sup> Terry Ow-Wing (former CBPRC member), in discussion with Beverly Karnatz, Jennie Lew, Kenny Li, Caroline Lu, and Fiona Yim, San Francisco, CA, March 2023.
-
-                    </li><li><sup>31</sup> “CNIRC Survey”, n.d., box 1, folder 6, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>32</sup> Jennie Lew (former CBPRC member), in discussion with Beverly Karnatz, Kenny Li, Caroline Lu, Terry Ow-Wing, and Fiona Yim, San Francisco, CA, March 2023.
-
-                    </li><li><sup>33</sup> Annie Vainshtein, “S.F. Chinatown’s despised ‘Bridge to Nowhere’ is closer to coming down,” SF Chronicle, July 23, 2022, https://www.sfchronicle.com/sf/article/Long-awaited-overhaul-of-Portsmouth-Square-in-17322102.php.
-
-                    </li><li><sup>34</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>35</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>36</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
-
-                    </li><li><sup>37</sup> Buhle. “Solved - Is This Malware and How to Remove It?” TechSpot Forums, October 16, 2021, https://www.techspot.com/community/topics/is-this-malware-and-how-to-remove-it-received-message-from-unexpected-origin-chrome-extension-efaidnbmnnnibpcajpcglclefindmkaj.271719/.
-
-                    </li><li><sup>38</sup> Andrew Nelson, “Portsmouth Square Improvement Under Review Today, Chinatown, San Francisco,” SF YIMBY, April 19, 2021, https://sfyimby.com/2021/04/portsmouth-square-improvement-under-review-today-chinatown-san-francisco.html.
-
-                    </li><li><sup>39</sup> “PORTSMOUTH SQUARE IMPROVEMENT PROJECT,” MEI Architects, n.d., http://www.meiarchitects.com/projects/portsmouth-square-improvement-project/
-
+                        <sup>10</sup> L.S. Slevin, “Sailing ship "U.S.S. Portsmouth,"” San Francisco History Center, San Francisco Public Library, 1843-1915, <a href="http://sflib1.sfpl.org:82/record=b1035677">http://sflib1.sfpl.org:82/record=b1035677</a>.
                     </li>
                     <li>
-                        <sup>40</sup> Annie Vainshtein, “S.F. Chinatown’s despised ‘Bridge to Nowhere’ is closer to coming down,” SF Chronicle, July 23, 2022, https://www.sfchronicle.com/sf/article/Long-awaited-overhaul-of-Portsmouth-Square-in-17322102.php
+                        <sup>11</sup> “THE GRAND PLAZA, SAN FRANCISCO, 1850,” Crockerart Art Museum, 1850, <a href="https://www.crockerart.org/collections/the-peter-t-pope-early-california-collection/artworks/the-grand-plaza-san-francisco">https://www.crockerart.org/collections/the-peter-t-pope-early-california-collection/artworks/the-grand-plaza-san-francisco</a>.
+                    </li>
+                    <li>
+                        <sup>12</sup> Allen G. Pastron, and Eugene M. Hattori, eds, The Hoff Store site and gold rush merchandise from San Francisco, California, Vol. 7. (Germantown: Society for Historical Archaeology, 1990), 7.
+                    </li>
+                    <li>
+                        <sup>13</sup> “Portsmouth Square in 1867,” San Francisco History Center, San Francisco Public Library, 1867, <a href="http://sflib1.sfpl.org:82/record=b1002203">http://sflib1.sfpl.org:82/record=b1002203</a>.
+                    </li>
+                    <li>
+                        <sup>14</sup> Mary Burk and Adah Bakalinsky, Stairway Walks in San Francisco: The Joy of Urban Exploring, (Wilderness Press, 2018), 16.
+                    </li>
+                    <li>
+                        <sup>15</sup> Alice Barkley (former City Attorney to the Planning Commission), in discussion with Harrington Fan, Jennie Lew, Caroline Lu, and Fiona Yim, San Francisco, CA, March 2023.
+                    </li>
+                    <li>
+                        <sup>16</sup> Pedestrian Bridge Connecting Portsmouth Square to Hilton Hotel. March 25, 2023. Photograph by Fiona Yim.
+                    </li>
+                    <li>
+                        <sup>17</sup> “Arts & Culture Nonprofit: Chinese Culture Center of San Francisco: California,” CCC San Francisco, n.d., <a href="https://www.cccsf.us/">https://www.cccsf.us/</a>.
+                    </li>
+                    <li>
+                        <sup>18</sup> Katherine Kam, “Families Live Jammed into Chinatown Rooms, with No Hope of Leaving,” San Francisco Chronicle, November 30, 2015, <a href="https://www.sfchronicle.com/bayarea/article/Families-live-jammed-into-Chinatown-rooms-with-6663902.php">https://www.sfchronicle.com/bayarea/article/Families-live-jammed-into-Chinatown-rooms-with-6663902.php</a>.
+                    </li>
+                    <li>
+                        <sup>19</sup> “Portsmouth Square Master Plan,” n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>20</sup> Ibid.
+                    </li>
+                    <li>
+                        <sup>21</sup> Michael Williams, “S.F. Community Leaders Rally at Portsmouth Square to Denounce Anti-Asian American Violence,” San Francisco Chronicle, March 23, 2021, <a href="https://www.sfchronicle.com/local/article/S-F-officials-Asian-American-community-leaders-16044538.php">https://www.sfchronicle.com/local/article/S-F-officials-Asian-American-community-leaders-16044538.php</a>.
+                    </li>
+                    <li>
+                        <sup>22</sup> Karen Umemoto, “‘On Strike!’ San Francisco State College Strike, 1968–69: The Role of Asian American Students,” Amerasia Journal 15, no. 1 (January 1989): 3–41, <a href="https://doi.org/10.17953/amer.15.1.7213030j5644rx25">https://doi.org/10.17953/amer.15.1.7213030j5644rx25</a>.
+                    </li>
+                    <li>
+                        <sup>23</sup> Beverly Karnatz (former CBPRC member), in discussion with Jennie Lew, Kenny Li, Caroline Lu, Terry Ow-Wing and Fiona Yim, San Francisco, CA, March 2023.
+                    </li>
+                    <li>
+                        <sup>24</sup> “Portsmouth Square: A Historic Hub And Community Centerpiece,” Hoodline, May 29, 2016, <a href="https://hoodline.com/2016/05/portsmouth-square-a-historic-hub-and-community-centerpiece/">https://hoodline.com/2016/05/portsmouth-square-a-historic-hub-and-community-centerpiece/</a>.
+                    </li>
+                    <li>
+                        <sup>25</sup> “Fact Sheet: Open Space in Chinatown”, n.d., box 1, folder 4, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>26</sup> “Amendment to the City Planning Code and Zoning Map to Reduce Height Limits”, n.d., box 2, folder 2, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>27</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>28</sup> Lizzie Johnson, “Changes could be in store Portsmouth Square, SF’s oldest plaza,” SFGATE, April 28, 2017, <a href="https://www.sfgate.com/bayarea/article/Changes-could-be-in-store-Portsmouth-Square-11106856.php">https://www.sfgate.com/bayarea/article/Changes-could-be-in-store-Portsmouth-Square-11106856.php</a>.
+                    </li>
+                    <li>
+                        <sup>29</sup> “CNIRC Survey”, n.d., box 1, folder 6, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>30</sup> Terry Ow-Wing (former CBPRC member), in discussion with Beverly Karnatz, Jennie Lew, Kenny Li, Caroline Lu, and Fiona Yim, San Francisco, CA, March 2023.
+                    </li>
+                    <li>
+                        <sup>31</sup> “CNIRC Survey”, n.d., box 1, folder 6, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>32</sup> Jennie Lew (former CBPRC member), in discussion with Beverly Karnatz, Kenny Li, Caroline Lu, Terry Ow-Wing, and Fiona Yim, San Francisco, CA, March 2023.
+                    </li>
+                    <li>
+                        <sup>33</sup> Annie Vainshtein, “S.F. Chinatown’s despised ‘Bridge to Nowhere’ is closer to coming down,” SF Chronicle, July 23, 2022, <a href="https://www.sfchronicle.com/sf/article/Long-awaited-overhaul-of-Portsmouth-Square-in-17322102.php">https://www.sfchronicle.com/sf/article/Long-awaited-overhaul-of-Portsmouth-Square-in-17322102.php</a>.
+                    </li>
+                    <li>
+                        <sup>34</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>35</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>36</sup> “Portsmouth Square Master Plan”, n.d., box 1, folder 9, AAS ARC 2023/1, Jennie Lew Papers, Ethnic Studies Library University of California, Berkeley.
+                    </li>
+                    <li>
+                        <sup>37</sup> Buhle. “Solved - Is This Malware and How to Remove It?” TechSpot Forums, October 16, 2021, <a href="https://www.techspot.com/community/topics/is-this-malware-and-how-to-remove-it-received-message-from-unexpected-origin-chrome-extension-efaidnbmnnnibpcajpcglclefindmkaj.271719/">https://www.techspot.com/community/topics/is-this-malware-and-how-to-remove-it-received-message-from-unexpected-origin-chrome-extension-efaidnbmnnnibpcajpcglclefindmkaj.271719/</a>.
+                    </li>
+                    <li>
+                        <sup>38</sup> Andrew Nelson, “Portsmouth Square Improvement Under Review Today, Chinatown, San Francisco,” SF YIMBY, April 19, 2021, <a href="https://sfyimby.com/2021/04/portsmouth-square-improvement-under-review-today-chinatown-san-francisco.html">https://sfyimby.com/2021/04/portsmouth-square-improvement-under-review-today-chinatown-san-francisco.html</a>.
+                    </li>
+                    <li>
+                        <sup>39</sup> “PORTSMOUTH SQUARE IMPROVEMENT PROJECT,” MEI Architects, n.d., <a href="http://www.meiarchitects.com/projects/portsmouth-square-improvement-project/">http://www.meiarchitects.com/projects/portsmouth-square-improvement-project/</a>
+                    </li>
+                    <li>
+                        <sup>40</sup> Annie Vainshtein, “S.F. Chinatown’s despised ‘Bridge to Nowhere’ is closer to coming down,” SF Chronicle, July 23, 2022, <a href="https://www.sfchronicle.com/sf/article/Long-awaited-overhaul-of-Portsmouth-Square-in-17322102.php">https://www.sfchronicle.com/sf/article/Long-awaited-overhaul-of-Portsmouth-Square-in-17322102.php</a>
                     </li>
                     <li>
                         <sup>41</sup> Nelson, “Portsmouth Square Improvement Under Review Today, Chinatown, San Francisco.”
