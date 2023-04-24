@@ -18,7 +18,10 @@ import IHotel from './pages/housing/IHotel';
 // Culture pages
 import KublaKhan from './pages/culture/KublaKhan';
 
-// Public Places
+// Public Health pages
+import ChineseHospital from './pages/public-health/ChineseHospital';
+
+// Public Places pages
 import PortsmouthSquare from './pages/public-spaces/PortsmouthSquare';
 
 function App() {
@@ -38,7 +41,7 @@ function App() {
           <Route exact path="/education/cfaa" element={<CFAA />}></Route>
 
           {/* Public Health */}
-          {/* <Route exact path="/public-health/chinese-hospital" element={<ChineseHospital />}></Route> */}
+          <Route exact path="/public-health/chinese-hospital" element={<ChineseHospital />}></Route>
           {/* <Route exact path="/public-health/asian-mental-health" element={<AsianMH />}></Route> */}
           {/* <Route exact path="/public-health/traditional-medicine" element={<TradMed />}></Route> */}
           {/* <Route exact path="/public-health/womens-health" element={<WomensHealth />}></Route> */}

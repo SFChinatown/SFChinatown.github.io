@@ -42,42 +42,6 @@ const Home = () => {
                             label: 'Fifth slide label',
                             caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
                         },
-                        {
-                            path: 'home-carousel/carousel-6.jpg',
-                            alt: 'Sixth slide',
-                            label: 'Sixth slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        },
-                        {
-                            path: 'home-carousel/carousel-7.jpg',
-                            alt: '7 slide',
-                            label: '7 slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        },
-                        {
-                            path: 'home-carousel/carousel-8.jpg',
-                            alt: '8 slide',
-                            label: '8 slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        },
-                        {
-                            path: 'home-carousel/carousel-9.png',
-                            alt: '9 slide',
-                            label: '9 slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        },
-                        {
-                            path: 'home-carousel/carousel-10.png',
-                            alt: '10 slide',
-                            label: '10 slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        },
-                        {
-                            path: 'home-carousel/carousel-11.jpg',
-                            alt: '11 slide',
-                            label: '11 slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        }
                     ]}
                 />
             </div>
@@ -96,7 +60,7 @@ const Home = () => {
                 <div className='description'>
                     <TextBlock
                         header="Explore Chinatown"
-                        body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem."
+                        body="Bracketed by the towering Financial District and the wealthy elites of Nob Hill, San Francisco's Chinatown is unique in its merciless compaction of space. Though historical bounded to only seventeen blocks, revisions to racial exclusion laws has allowed for expansion beyond predetermined borders. Explore SF Chinatown and our Sites of Interest through the Interactive Map below."
                     />
                     <div className="explore-button">
                         <Link to="/map">

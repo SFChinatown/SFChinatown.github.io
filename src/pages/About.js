@@ -23,41 +23,58 @@ const About = () => {
                     <SemesterClass
                         current = {true}
                         semester = "Spring 2023"
-                        gsi = "Jessica Jiang"
+                        gsi = "Professor Lok Siu & Jessica Jiang"
                         groups = {[
                             {
-                                name: "group 1",
+                                name: "Chinese Hospital",
                                 people: [
-                                    "person a",
-                                    "person b"
+                                    "Annie Pan",
+                                    "Kelly Ma",
+                                    "Sherry Zhang",
+                                    "Yaming Zhuang"
                                 ]
                             },
                             {
-                                name: "group 2",
+                                name: "CCSF",
                                 people: [
-                                    "person a",
-                                    "person b"
+                                    "Diane Cho",
+                                    "Maddi Wong",
+                                    "Sophia Jacobs"
                                 ]
                             },
                             {
-                                name: "group 3",
+                                name: "I-Hotel",
                                 people: [
-                                    "person a",
-                                    "person b"
+                                    "Ava Olson",
+                                    "Emily Ho",
+                                    "Shanti Knutzen",
+                                    "Vivian Kuang"
                                 ]
                             },
                             {
-                                name: "group 4",
+                                name: "Portsmouth Square",
                                 people: [
-                                    "person a",
-                                    "person b"
+                                    "Allison Hong",
+                                    "Caroline Lu",
+                                    "Fiona Yim",
+                                    "Kenny Li"
                                 ]
                             },
                             {
-                                name: "group 5",
+                                name: "Kubla Khan Nightclub",
                                 people: [
-                                    "person a",
-                                    "person b"
+                                    "Chae Kim",
+                                    "Harrington Fan",
+                                    "Kelly Lam",
+                                    "Tawny Hoang"
+                                ]
+                            },
+                            {
+                                name: "Platform/Mapping",
+                                people: [
+                                    "Joanne Ng",
+                                    "Lily Yang",
+                                    "Michelle R Chen"
                                 ]
                             }
                         ]}
@@ -66,10 +83,10 @@ const About = () => {
             </div>
             <div className="colophon">
                 <h2>Colophon</h2>
-                <p>This site was made using Github Pages, Bootstrap, React.js, with accompanying use of FontAwesome. Typset with [font names]. And any extra other bits about making the website.
-But it’s sort of important that this paragraph has
-a sort of reverse triangle shape.
-very important.</p>
+                <p>This website was coded with React.js, Bootstrap, and plain HTML. 
+                <br/>Typeset with Google Fonts Rowdies and Quicksand.
+                <br/>Hosted on Github Pages.
+                </p>
             </div>
             <Footer />
         </div>

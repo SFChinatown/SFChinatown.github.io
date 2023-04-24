@@ -27,7 +27,7 @@ function SemesterClass(props) {
     <div className={`semester-info ${props.current ? "active" : ""}`}>
       <p className="semester-title">{props.semester}</p>
       <div className="gsi-info">
-        <p className="gsi-title">GSI</p>
+        <p className="gsi-title">Instructors</p>
         <p className="gsi-name">{props.gsi}</p>
       </div>
       <div className="groups">

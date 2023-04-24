@@ -28,3 +28,7 @@ ul {
   background-color: #F5F5F5;
   padding: 50px;
 }
+
+.colophon > p {
+  text-align: center;
+}
