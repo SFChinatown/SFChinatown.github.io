@@ -16,6 +16,7 @@ import CFAA from './pages/education/CFAA';
 import IHotel from './pages/housing/IHotel';
 
 // Culture pages
+import Culture from './pages/culture/Culture';
 import KublaKhan from './pages/culture/KublaKhan';
 
 // Public Health pages
@@ -53,6 +54,7 @@ function App() {
           {/* Route exact path="/housing/housing-community-today" element={<HousingCom />}></Route> */}
 
           {/* Arts & Culture */}
+          <Route exact path="/culture" element={<Culture />}></Route>
           <Route exact path="/culture/kubla-khan-nightclub" element={<KublaKhan />}></Route>
 
           {/* Public Spaces */}
