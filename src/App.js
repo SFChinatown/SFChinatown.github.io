@@ -17,6 +17,7 @@ import Housing from './pages/housing/Housing';
 import IHotel from './pages/housing/IHotel';
 import PingYuen from './pages/housing/PingYuen';
 import MeiLunYuen from './pages/housing/MeiLunYuen';
+import HousingToday from './pages/housing/HousingToday';
 
 // Culture pages
 import Culture from './pages/culture/Culture';
@@ -55,7 +56,7 @@ function App() {
           <Route exact path="/housing/i-hotel" element={<IHotel />}></Route>
           <Route exact path="/housing/ping-yuen" element={<PingYuen />}></Route>
           <Route exact path="/housing/mei-lun-yuen" element={<MeiLunYuen />}></Route>
-          {/* Route exact path="/housing/housing-community-today" element={<HousingCom />}></Route> */}
+          <Route exact path="/housing/housing-community-today" element={<HousingToday />}></Route>
 
           {/* Arts & Culture */}
           <Route exact path="/culture" element={<Culture />}></Route>

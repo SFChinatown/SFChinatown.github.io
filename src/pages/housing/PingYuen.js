@@ -135,7 +135,7 @@ const PingYuen = () => {
                         <sup>13</sup> Julia La Chica, 2023.
                     </li> 
                     <li>
-                        <sup>14</sup> Examiner Staff. “Ping Yuen Residents Fear Crime in Chinatown Housing Project.” San Francisco Examiner, November 6, 2014. <a href="https://www.sfexaminer.com/news/ping-yuen-residents-fear-crime-in-chinatown-housing-project/article_99fef6db-b469-57a1-9b3d-32ce8ed97dba.html">https://www.sfexaminer.com/news/ping-yuen-residents-fear-crime-in-chinatown-housing-project/article_99fef6db-b469-57a1-9b3d-32ce8ed97dba.html</a>.
+                        <sup>14</sup> Examiner Staff. “Ping Yuen Residents Fear Crime in Chinatown Housing Project.” San Francisco Examiner, November 6, 2014. <a href="https://www.sfexaminer.com/news/ping-yuen-residents-fear-crime-in-chinatown-housing-project/article_99fef6db-b469-57a1-9b3d-32ce8ed97dba.html">https://www.sfexaminer.com/news/ping-yuen-residents-fear-crime-in-chinatown-housing-project/article_99fef6db-b469-57a1-9b3d-32ce8ed97dba.html.</a>.
                     </li> 
                     <li>
                         <sup>15</sup> “Ping Yuen.” Chinatown Community Development Center.

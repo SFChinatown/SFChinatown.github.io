@@ -1,0 +1,28 @@
+.housing-today-intro > img {
+    margin: 15px;
+}
+.vertical-img {
+    height: 70vh !important;
+    width: auto !important;
+}
+
+.horizontal-img {
+    width: 80% !important;
+}
+
+.housing-today-intro > p {
+    margin: 0 100px;
+    text-align: left;
+}
+
+.vertical-img-taller {
+    height: 100vh;
+}
+
+.imgRow {
+    display: flex;
+    padding: 0 80px;
+    gap: 30px;
+    justify-content: center;
+    scale: 90%;
+}

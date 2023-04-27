@@ -37,7 +37,7 @@ const About = () => {
                             {
                                 name: "CCSF",
                                 people: [
-                                    "Diane Cho",
+                                    "Diane Chao",
                                     "Maddi Wong",
                                     "Sophia Jacobs"
                                 ]
