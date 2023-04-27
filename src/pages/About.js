@@ -16,7 +16,7 @@ const About = () => {
                         />
                     </div>
                     <div className='overview-img'>
-                        <img src={require('../assets/images/test.png')}/>
+                        <img src={require('../assets/images/Spring2023.jpg')}/>
                     </div>
                 </div>
                 <div className="semester-info">
