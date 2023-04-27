@@ -13,7 +13,10 @@ import LauNichols from './pages/education/LauNichols';
 import CFAA from './pages/education/CFAA';
 
 // Housing pages
+import Housing from './pages/housing/Housing';
 import IHotel from './pages/housing/IHotel';
+import PingYuen from './pages/housing/PingYuen';
+import MeiLunYuen from './pages/housing/MeiLunYuen';
 
 // Culture pages
 import Culture from './pages/culture/Culture';
@@ -48,9 +51,10 @@ function App() {
           {/* <Route exact path="/public-health/womens-health" element={<WomensHealth />}></Route> */}
 
           {/* Housing */}
+          <Route exact path="/housing" element={<Housing />}></Route>
           <Route exact path="/housing/i-hotel" element={<IHotel />}></Route>
-          {/* Route exact path="/housing/ping-yuen" element={<PingYuen />}></Route> */}
-          {/* Route exact path="/housing/mei-lun-yuen" element={<MeiLunYuen />}></Route> */}
+          <Route exact path="/housing/ping-yuen" element={<PingYuen />}></Route>
+          <Route exact path="/housing/mei-lun-yuen" element={<MeiLunYuen />}></Route>
           {/* Route exact path="/housing/housing-community-today" element={<HousingCom />}></Route> */}
 
           {/* Arts & Culture */}

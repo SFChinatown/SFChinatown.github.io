@@ -1,79 +1,15 @@
 import React from 'react';
-import TextBlock from '../components/TextBlock';
-import SemesterClass from '../components/SemesterClass';
 import Footer from '../components/Footer';
 import "./Map.css";
 
 const Map = () => {
     return (
         <div>
-            <div className='information'>
-                <div className='overview'>
-                    <div className='description'>
-                        <TextBlock 
-                            header="Map"
-                            body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est."
-                        />
-                    </div>
-                    <div className='overview-img'>
-                        <img src={require('../assets/images/test.png')}/>
-                    </div>
-                </div>
-                <div className="semester-info">
-                    <SemesterClass
-                        current = {true}
-                        semester = "Spring 2023"
-                        gsi = "Jessica Jiang"
-                        groups = {[
-                            {
-                                name: "group 1",
-                                people: [
-                                    "person a",
-                                    "person b"
-                                ]
-                            },
-                            {
-                                name: "group 2",
-                                people: [
-                                    "person a",
-                                    "person b"
-                                ]
-                            },
-                            {
-                                name: "group 3",
-                                people: [
-                                    "person a",
-                                    "person b"
-                                ]
-                            },
-                            {
-                                name: "group 4",
-                                people: [
-                                    "person a",
-                                    "person b"
-                                ]
-                            },
-                            {
-                                name: "group 5",
-                                people: [
-                                    "person a",
-                                    "person b"
-                                ]
-                            }
-                        ]}
-                    />
-                </div>
-            </div>
-            <div className="colophon">
-                <h2>Colophon</h2>
-                <p>This site was made using Github Pages, Bootstrap, React.js, with accompanying use of FontAwesome. Typset with [font names]. And any extra other bits about making the website.
-But it’s sort of important that this paragraph has
-a sort of reverse triangle shape.
-very important.</p>
-            </div>
             <Footer />
         </div>
     )
 }
 
-export default Map
+export default Map;
+
+// (xhr=new XMLHttpRequest).open("GET","../assets/map.svg",!1),xhr.overrideMimeType("image/svg+xml"),xhr.onload=function(e){document.getElementById("svgContainer").appendChild(xhr.responseXML.documentElement)},xhr.send("");const outlineList=document.querySelectorAll('g[id$="Outline"]');for(const i of outlineList.values())i.style="display:none";var beforePan,sites={CCSF:"#f7b95e",Woh_Hei_Yuen:"#95d1a3",Ping_Yuen:"#f07b3b",Willie_Wong_Playground:"#95d1a3",Spofford_Alley:"#f07b3b",Kubla_Khan_Nightclub:"#cf2844",Mei_Lun_Yuen:"#f07b3b","I-Hotel":"#f07b3b",Portsmouth_Square:"##95d1a3",Chinese_for_Affirmative_Action:"#f7b95e",Chinese_Hospital:"#94cdd3"};$.each(sites,function(e,n){$("#"+e+"_Site").parent().hover(function(){$("#"+e+"_Outline").css("display","inline")},function(){$("#"+e+"_Outline").css("display","none")}),$("head").append('<style type="text/css"></style>'),$("head").children(":last").html(".hbg"+e+"{--bs-popover-header-bg:"+n+";}"),new bootstrap.Popover($("#"+e+"_Site").parent(),{trigger:"hover",placement:"top",title:$("#"+e+"_Site").attr("data-name").replace(" Site",""),content:null,container:"body",customClass:"hbg"+e})}),svgPanZoom("#SFChinatown2023",{zoomEnabled:!0,controlIconsEnabled:!0,fit:1,center:1,beforePan:beforePan=function(e,n){var o=this.getSizes(),t=-((o.viewBox.x+o.viewBox.width)*o.realZoom)+600,a=o.width-600-o.viewBox.x*o.realZoom,l=-((o.viewBox.y+o.viewBox.height)*o.realZoom)+600,s=o.height-600-o.viewBox.y*o.realZoom;return(customPan={}).x=Math.max(t,Math.min(a,n.x)),customPan.y=Math.max(l,Math.min(s,n.y)),customPan},minZoom:1,maxZoom:10,dblClickZoomEnabled:!1});

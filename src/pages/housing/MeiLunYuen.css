@@ -1,0 +1,20 @@
+.mei-lun-yuen-intro > img {
+    margin: 15px;
+}
+
+.mei-lun-yuen-intro > p {
+    margin: 0 100px;
+    text-align: left;
+}
+
+.vertical-img-taller {
+    height: 100vh;
+}
+
+.imgRow {
+    display: flex;
+    padding: 0 80px;
+    gap: 30px;
+    justify-content: center;
+    scale: 90%;
+}

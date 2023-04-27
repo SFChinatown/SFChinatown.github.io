@@ -10,7 +10,7 @@ const PortsmouthSquare = () => {
                 <h2>Portsmouth Square</h2>
                 <p>Known as Chinatown’s living room, Portsmouth Square is a historic community park and public gathering space at the heart of San Francisco’s Chinatown that unites its local residents with rich cultural developments.</p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-1.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_1.jpeg')} className='horizontal-img' />
                     <figcaption>
                         Portsmouth Square Overview<sup>1</sup>
                     </figcaption>
@@ -18,7 +18,7 @@ const PortsmouthSquare = () => {
                 <br />
                 <p>The creation of Portsmouth Square dates back to the early 19th century, even before San Francisco was officially founded, and the space has witnessed many critical turning points in history. It was the site of the first raising of the American flag, and where the first gold discovery in the Sierras and California’s official admission to the United States was announced.<sup>2</sup> In the 1906 earthquake and fire, Portsmouth Square served as a congregation area where community members could safely gather away from shattered infrastructure — providing temporary shelter for the displaced, a cemetery for earthquake victims, and a place for troops to locate as they assisted in reconstruction efforts.<sup>3</sup></p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-2.jpg')} className='vertical-img'/>
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_2.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Portsmouth Square after the 1906 earthquake<sup>4</sup>
                     </figcaption>
@@ -26,7 +26,7 @@ const PortsmouthSquare = () => {
                 <br />
                 <p>When Chinese immigrants began to populate the surrounding areas, the need to maintain recreational spaces was strong in order to promote community health and overall well-being. Portsmouth Square, having made its name as a community gathering space, was one of the key areas that were a part of these beautification efforts. The square underwent a series of renovations throughout the 20th century: new restrooms and elevators were built; playgrounds, benches, and chess tables created recreational-use activities; community rooms, outdoor playsets, and even a parking garage attracted more residents to come to socialize, exercise, play games, and pay regular visits. These developments have helped to define the functions of Portsmouth Square as we know it today — as both a historic park and a modern, lively gathering center for the Chinese community.</p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-3.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_3.jpeg')} className='vertical-img'/>
                     <figcaption>
                         Portsmouth Square’s Goddess of Democracy Statue<sup>5</sup>
                     </figcaption>
@@ -36,14 +36,14 @@ const PortsmouthSquare = () => {
                 <p>Portsmouth Square is situated on the north side of the city’s Financial District, bordered by Kearny Street to the east, Washington Street to the north, Clay Street to the south, and Walter U Lum Place to the west.</p>
                 <p>Portsmouth Square can be found where the initial public square, The Grand Plaza, was established in the early 1800s within the Mexican community of Yerba Buena. As early as 1833, the area was utilized as a location for public meetings, and in 1835 it was officially designated as a plaza.<sup>6</sup> In the course of the Mexican-American War, Captain John Berrien Montgomery was instructed to capture Yerba Buena while serving aboard the USS Portsmouth.<sup>7</sup> On July 9, 1846, Montgomery and a group of 17 soldiers arrived, planted the initial American flag, and claimed the territory.<sup>8</sup> It was later renamed Portsmouth Square in honor of the U.S. Navy ship.<sup>9</sup> Over time, the location of Portsmouth Square has shifted slightly in relation to the waterfront of San Francisco due to land reclamation projects and other changes in the city's geography.</p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-4.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_4.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Sailing ship "U.S.S. Portsmouth"<sup>10</sup>
                     </figcaption>
                 </figure>
                 <br />
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-5.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_5.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         The Grand Plaza, SF in 1850<sup>11</sup>
                     </figcaption>
@@ -51,7 +51,7 @@ const PortsmouthSquare = () => {
                 <br />
                 <p>When San Francisco was first settled in the mid-19th century, Portsmouth Square was located just a few blocks from the waterfront<sup>12</sup>. At the time, the square was a popular gathering place for locals and visitors alike, and it was the site of many important events in the city's early history. However, as the city grew and developed, the waterfront began to shift further out into the bay. By the early 20th century, the location of Portsmouth Square had shifted slightly inland, and it was no longer directly adjacent to the waterfront.</p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-6.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_6.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Portsmouth Square in 1867<sup>13</sup>
                     </figcaption>
@@ -60,7 +60,7 @@ const PortsmouthSquare = () => {
                 <p>Today, Portsmouth Square is located about six blocks inland from the San Francisco waterfront, in the heart of the city's Chinatown neighborhood. The square is a popular destination for locals and tourists alike, with its beautiful gardens, public art installations, and rich history.</p>
                 <p>In addition to its historical and cultural significance, Portsmouth Square is also connected to the nearby Hilton Hotel (previously Holiday Inn Hotel) by a pedestrian footbridge.<sup>14</sup> This bridge allows visitors to easily access both the square and the hotel by avoiding the heavy traffic on Kearny Street,<sup>15</sup> and it has become a popular spot for taking photos and enjoying panoramic views of the city.</p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-7.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_7.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Pedestrian Bridge Connecting Portsmouth Square to Hilton Hotel<sup>16</sup>
                     </figcaption>
@@ -72,7 +72,7 @@ const PortsmouthSquare = () => {
                 <p>At the height of the COVID-19 pandemic, anti-Asian hate crimes skyrocketed, bolstered by racist stereotypes and anti-Chinese rhetoric from political leaders. After the Atlanta Spa Shootings, Asian-American leaders across the United States rallied their communities to demand an end to race-based, gender-based violence. One of the biggest protests occurred in Portsmouth Square, where speakers reaffirmed their right to live in the United States and called for greater protections for seniors.<sup>21</sup> However, this is not the first time Portsmouth Square has served as a place of protest. On August 17th, 1968, the Concerned Chinese for Action and Change, a coalition of college students from across the Bay Area, marched down Grant Street to protest poor living conditions in Chinatown. The march ended at Portsmouth Square, where speakers condemned the activities of slumlords, sweatshop owners, and local political leaders.<sup>22</sup> </p>
                 <p>Presently, Portsmouth Square is used as a community gathering space by a variety of people. For many residents in the area, social life in Chinatown is defined by the neighborhood’s many community-based organizations. These organizations use Portsmouth Square as a space to host tai chi classes, host musical performances, and circulate information about housing and other social services. The plaza is also frequented by Chinese elders, who are often gossiping and gambling with friends.<sup>23</sup> In addition, the space is used by unhoused individuals. These people often have no other place to go and call Portsmouth Square home. For the Chinatown community, Portsmouth Square is an important space for community-building, political action, and socializing.</p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-8.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_8.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Chinese elders doing exercise in Portsmouth Square<sup>24</sup>
                     </figcaption>
@@ -82,7 +82,7 @@ const PortsmouthSquare = () => {
                 <p>San Francisco Chinatown, being one of the most densely populated places in the whole country, has the least amount of public open space per person of any community in San Francisco.<sup>25</sup> Therefore, open space is crucial to SF Chinatown, and the CNIRC (Chinatown Neighborhood Improvement Resource Center), now known as CCDC (Chinatown Community Development Center), considers sunlight to be an essential element for SF Chinatown’s open space.<sup>26</sup> </p>
                 <p>Everyday, senior citizens use Portsmouth Square as a social hub. Adults frequently bring their children to Portsmouth Square for fresh air and outdoor activities. Due to their limited mobility, many Chinatown residents visit Portsmouth Square as their only open space. Thus, the Portsmouth Square Master Plan was developed in order to enhance seniors' and children's recreational opportunities while also providing a secure park environment.<sup>27</sup></p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-9.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_9.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Portsmouth Square’s Playground and Gathering Area in 2016<sup>28</sup>
                     </figcaption>
@@ -91,7 +91,7 @@ const PortsmouthSquare = () => {
                 <p>Funds were requested by the CBPRC (Committee for Better Parks and Recreation in Chinatown) during the Community Development public hearings in 1977 to expand the Portsmouth Square children’s play area. The Office of Community Development granted $50,000 for the improvements.<sup>29</sup> After receiving the necessary funds, the CBPRC began to seek community input from residents, especially children, to help determine what improvements and recreational needs to prioritize.<sup>30</sup> </p>
                 <p>In 1978, Jennie Lew, CNIRC’s technical advisor, created a questionnaire to gather data on the needs and interests of children in Chinatown to provide a basis for the preliminary design development of Portsmouth Square’s tot lot. The survey collected data on the primary users of the play area and the preferred placement of seating, seating in relation to sunlight, surfaces for the play zones, types of activities in the play zones, etc. <sup>31</sup> Small sketches were shown to people to portray the different types of designs.<sup>32</sup></p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-10.jpg')} className='vertical-img'/>
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_10.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         Footbridge linking Portsmouth Square and Hilton Hotel/Chinese Culture Center<sup>33</sup>
                     </figcaption>
@@ -105,7 +105,7 @@ const PortsmouthSquare = () => {
 
                 <h3>The Future of Portsmouth Square</h3>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-11.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_11.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         New Portsmouth Square aerial overview<sup>38</sup>
                     </figcaption>
@@ -114,7 +114,7 @@ const PortsmouthSquare = () => {
                 <p>MEI Architects and SWA Group have been hired by the Recreation & Parks Department of San Francisco to work on the improvements project for Portsmouth Square.<sup>39</sup> The project aims to create a vision for the park that will benefit future generations by improving the park's plantings, paving, playground areas, lighting, and furnishings. The project will also include a new community clubhouse with a large assembly area, restrooms, and smaller meeting rooms. The joint venture team has led a year-long community engagement planning and concept design phase, which included public workshops and working with community groups, key stakeholders, and coordination with city agencies.</p>
                 <p>On 22nd July 2022, District 19 Assemblymember Phil Ting announced a $4 million investment in the project to reconstruct and improve Portsmouth Square, San Francisco's Chinatown.<sup>40</sup> The redesign of the park is a "core project" that is expected to be completed in 2025. The Kearny Street pedestrian bridge, connecting Portsmouth Square and the Hilton Hotel, will be the first to be removed, and the redesign will include an 8,000-square-foot, two-story clubhouse, a multigenerational playground, and other changes that will open the square up for more sunshine. Portsmouth Square is the heart of San Francisco's Chinese American community, and the redesign will ensure residents get the "vibrant and modern oasis they deserve."<sup>b</sup></p>
                 <figure>
-                    <img src={require('../../assets/images/portsmouth/PMS-12.png')} />
+                    <img src={require('../../assets/images/portsmouth/PortsmouthSquare_12.jpeg')} className='horizontal-img'/>
                     <figcaption>
                         New Portsmouth Square approved schematic design<sup>41</sup>
                     </figcaption>

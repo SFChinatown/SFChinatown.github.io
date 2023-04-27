@@ -24,3 +24,12 @@ details > summary {
 .imgText > p {
     flex: 0.8;
 }
+
+.vertical-img {
+    height: 70vh !important;
+    width: auto !important;
+}
+
+.horizontal-img {
+    width: 80% !important;
+}
