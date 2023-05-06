@@ -5,8 +5,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Theme from './pages/Theme';
-import MapPage from './pages/MapPage';
-// import Map from './pages/Map';
+import Map from './pages/Map';
 
 // Education pages
 import CCSF from './pages/education/CCSF';
@@ -40,7 +39,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about-us" element={<About />}></Route>
-          {/* <Route exact path="/interactive-map" element={<MapPage />}></Route> */}
+          <Route exact path="/interactive-map" element={<Map />}></Route>
           <Route exact path="/main-themes" element={<Theme />}></Route>
 
           {/* Education */}
