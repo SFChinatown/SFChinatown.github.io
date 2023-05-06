@@ -30,6 +30,7 @@ import ChineseHospital from './pages/public-health/ChineseHospital';
 
 // Public Places pages
 import PortsmouthSquare from './pages/public-spaces/PortsmouthSquare';
+import WohHeiYuen from './pages/public-spaces/WohHeiYuen';
 
 function App() {
   return (
@@ -69,7 +70,7 @@ function App() {
           <Route exact path="/public-spaces/portsmouth-square" element={<PortsmouthSquare />}></Route>
           {/* Route exact path="/public-spaces/willy-wong-playground" element={<WillyWong />}></Route> */}
           {/* Route exact path="/public-spaces/st-marys-square" element={<StMarys />}></Route> */}
-          {/* Route exact path="/public-spaces/woh-hei-yuen-park" element={<WHYPark />}></Route> */}
+          <Route exact path="/public-spaces/woh-hei-yuen-park" element={<WohHeiYuen />}></Route>
           {/* Route exact path="/public-spaces/betty-ann-ong-rec-center" element={<BAORecCent />}></Route> */}
 
         </Routes>

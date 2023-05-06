@@ -32,4 +32,5 @@ details > summary {
 
 .horizontal-img {
     width: 80% !important;
+    height: auto !important;
 }
