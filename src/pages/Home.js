@@ -130,9 +130,8 @@ const Home = () => {
                 <Tile
                 header="Public Space"
                 body={[
-                    "Betty Ann Ong Recreation Center",
+                    "Alleyways Program",
                     "Portsmouth Square",
-                    "St. Mary's Square",
                     "Willie Wong Playground",
                     "Woh Hei Yuen Park",
                 ]}                    

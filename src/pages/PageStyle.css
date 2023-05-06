@@ -34,3 +34,7 @@ details > summary {
     max-width: 80% !important;
     height: auto !important;
 }
+
+figcaption {
+    word-wrap: break-word;
+}

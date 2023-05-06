@@ -92,16 +92,12 @@ export const NavItemsList = [
           url: 'public-spaces',
           submenu: [
             {
-              title: 'Betty Ann Ong Recreation Center',
-              url: 'public-spaces/betty-ann-ong-rec-center'
+              title: 'Alleyways Program',
+              url: 'public-spaces/alleyways'
             },
             {
               title: 'Portsmouth Square',
               url: 'public-spaces/portsmouth-square'
-            },
-            {
-              title: "St Mary's Square",
-              url: 'public-spaces/st-marys-square'
             },
             {
               title: 'Willie Wong Playground',
