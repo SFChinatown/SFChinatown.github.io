@@ -59,6 +59,10 @@ export const NavItemsList = [
               title: 'Ping Yuen',
               url: 'housing/ping-yuen',
             },
+            {
+              title: 'Reimagining Community Safety',
+              url: 'housing/reimagining-community-safety',
+            },
           ]
         },
         {

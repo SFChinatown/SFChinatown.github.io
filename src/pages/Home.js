@@ -105,6 +105,7 @@ const Home = () => {
                     "International Hotel",
                     "Mei Lun Yuen",
                     "Ping Yuen",
+                    "Reimagining Community Safety"
                 ]}                               
                 image={{
                     link:"/housing",

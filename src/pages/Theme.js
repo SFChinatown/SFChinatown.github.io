@@ -185,6 +185,11 @@ const Theme = () => {
                                         Housing and Community Organizing in Chinatown Today
                                     </button>
                                 </Link>
+                                <Link to="/housing/reimagining-community-safety">
+                                    <button className="aux-site-btn">
+                                        Reimagining Community Safety
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         <div className='image'>
