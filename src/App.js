@@ -25,7 +25,11 @@ import Culture from './pages/culture/Culture';
 import KublaKhan from './pages/culture/KublaKhan';
 
 // Public Health pages
+import PublicHealth from './pages/public-health/PublicHealth';
 import ChineseHospital from './pages/public-health/ChineseHospital';
+import MentalHealth from './pages/public-health/MentalHealth';
+import TraditionalMedicine from './pages/public-health/TraditionalMedicine';
+import WomensHealth from './pages/public-health/WomensHealth';
 
 // Public Places pages
 import PublicSpaces from './pages/public-spaces/PublicSpaces';
@@ -51,10 +55,11 @@ function App() {
           <Route exact path="/education/cfaa" element={<CFAA />}></Route>
 
           {/* Public Health */}
+          <Route exact path="/public-health" element={<PublicHealth />}></Route>
           <Route exact path="/public-health/chinese-hospital" element={<ChineseHospital />}></Route>
-          {/* <Route exact path="/public-health/asian-mental-health" element={<AsianMH />}></Route> */}
-          {/* <Route exact path="/public-health/traditional-medicine" element={<TradMed />}></Route> */}
-          {/* <Route exact path="/public-health/womens-health" element={<WomensHealth />}></Route> */}
+          <Route exact path="/public-health/asian-mental-health" element={<MentalHealth />}></Route>
+          <Route exact path="/public-health/traditional-medicine" element={<TraditionalMedicine />}></Route>
+          <Route exact path="/public-health/womens-health" element={<WomensHealth />}></Route>
 
           {/* Housing */}
           <Route exact path="/housing" element={<Housing />}></Route>

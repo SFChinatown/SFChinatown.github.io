@@ -7,6 +7,9 @@ import Footer from '../components/Footer';
 import "./Home.css";
 
 const Home = () => {
+    const contactUsBtn = require("../assets/icons/contact-us.svg");
+    const interactiveMapBtn = require("../assets/icons/interactive-map.svg");
+
     return (
         <div class='home'>
             <div className='carousel'>
@@ -14,47 +17,53 @@ const Home = () => {
                     items = {[
                         {
                             path: 'home-carousel/carousel-1.jpg',
-                            alt: 'First slide',
-                            label: 'CBPR',
-                            caption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                            alt: 'Portsmouth Square',
+                            label: 'Portsmouth Square',
                         },
                         {
                             path: 'home-carousel/carousel-2.jpg',
-                            alt: 'Second slide',
-                            label: 'Second slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            alt: 'International Hotel',
+                            label: 'International Hotel',
                         },
                         {
                             path: 'home-carousel/carousel-3.jpg',
-                            alt: 'Third slide',
-                            label: 'Third slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            alt: 'City College of San Francisco – Chinatown',
+                            label: 'City College of San Francisco – Chinatown',
                         },
                         {
                             path: 'home-carousel/carousel-4.jpg',
-                            alt: 'Fourth slide',
-                            label: 'Fourth slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            alt: '(former) Kubla Khan Nightclub',
+                            label: '(former) Kubla Khan Nightclub',
                         },
                         {
                             path: 'home-carousel/carousel-5.jpg',
-                            alt: 'Fifth slide',
-                            label: 'Fifth slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            alt: 'Chinese Hospital',
+                            label: 'Chinese Hospital',
                         },
                     ]}
                 />
             </div>
             <div className='intro'>
                 <h1 className='intro-header'>Introduction</h1>
-                <TextBlock 
-                    header="Heading #1"
-                    body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est."
-                />
-                <TextBlock 
-                    header="Heading #2"
-                    body="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est."
-                />
+                <p>
+                This project was created through an upper-level Asian American & Asian Diaspora Studies seminar at UC Berkeley, through the collaborative efforts of twenty-two undergraduate students and led by Professor Lok Siu and TA Jessica Jiang. As part of “A Year on Angel Island,” the course was cross-listed under the Humanities and Environmental Design departments, and formed part of a year-long series of programming on the histories and futures of immigration.
+                </p>
+
+                <p>
+                Students began the course by reading existing scholarship on SF Chinatown’s history, from its origins in the 1850s to its present day, accompanied with class visits and a guided tour of Chinatown from community members. In these first few weeks we collectively brainstormed ideas for how we wanted to organize our project, identifying five broad themes we felt were important to cover in a survey of Chinatown’s history: Public health, education, housing and activism, green space, and cultural enterprise. We identified five locations as “anchoring sites” for the project based on existing connections and availability of archives, with each site corresponding to one of these broad themes. In the following weeks, students broke into small groups according to these themes and dove into independent research in archives and with community members.
+                </p>
+
+                <p>
+                Platform was an important question that we had many conversations about. We needed a platform that would help readers maintain an awareness of time and space in Chinatown, while also communicating complex webs of relationships between people, places, and politics. After exploring several existing digital humanities platforms, we ultimately settled on the form that you see now, a website and interactive map coded from scratch by students. A small group of students focused on building the website, working closely with the other small groups to develop unique designs for each research theme.
+                </p>
+
+                <p>
+                While each group of students began their research with their respective anchoring site, we spent the next few weeks building the scope of the research out inductively. As students encountered other places, events, and topics in the course of their research, they produced additional write-ups that helped to fill out each broader theme, as well as the interactive map. The last few weeks of class were spent revising and fine-tuning the write-ups for digital publication.
+                </p>
+
+                <p>
+                This first iteration of the project only represents the tip of the iceberg that is SF Chinatown’s vibrant history. While future classes will continue working on the site, the design and content of the website you see now is the product of our students’ hard work and diverse skills in research, multimedia journalism, web development, and design. Moreover, this project would not have been possible without the generosity of our community partners, who were eager to encourage our research. Thank you to the many community members across the Bay Area who fielded our emails, hopped on Zoom calls to answer questions, invited us to community events, gave us building tours, and shared their archives and memories with us.
+                </p>
             </div>
             <div className='explore-peek'>
                 <div className='description'>
@@ -64,14 +73,12 @@ const Home = () => {
                     />
                     <div className="explore-button">
                         <Link to="/map">
-                            <button>
-                                Interactive Map 
-                            </button>
+                            <img className="button-img" src={interactiveMapBtn}></img>
                         </Link>
                     </div>
                 </div>
                 <div className='image'>
-                    <img src={require('../assets/images/test.png')}/>
+                    <img src={require('../assets/images/Map_preview.gif')}/>
                 </div>
             </div>
             <div className='tiles'>
@@ -82,7 +89,7 @@ const Home = () => {
                 ]}    
                 image={{
                     link:"/culture",
-                    path:"test.png",
+                    path:"Card_KublaKhan.jpg",
                     alt:"Arts & culture theme"
                 }}
                 />
@@ -94,7 +101,7 @@ const Home = () => {
                 ]}
                 image={{
                     link:"/education",
-                    path:"test.png",
+                    path:"Card_CCSF.jpg",
                     alt:"Education"
                 }}
                 />
@@ -109,7 +116,7 @@ const Home = () => {
                 ]}                               
                 image={{
                     link:"/housing",
-                    path:"test.png",
+                    path:"Card_I-Hotel.jpg",
                     alt:"Housing theme"
                 }}
                 />
@@ -123,7 +130,7 @@ const Home = () => {
                 ]}                
                 image={{
                     link:"/public-health",
-                    path:"test.png",
+                    path:"Card_ChineseHospital.jpg",
                     alt:"Public health"
                 }}
                 />
@@ -137,18 +144,18 @@ const Home = () => {
                 ]}                    
                 image={{
                     link:"/public-space",
-                    path:"test.png",
+                    path:"Card_PortsmouthSquare.jpg",
                     alt:"Public Space theme"
                 }}
                 />
             </div>
             <div className="contact-us">
                 <div className="contact-description">
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h5>
+                    <h5>We'd love to hear your feedback, thoughts, and questions!</h5>
                 </div>
                 <div className="contact-button">
                     <Link to="/">
-                        <button>Contact Us</button>
+                        <img className="button-img" src={contactUsBtn}></img>
                     </Link>
                 </div>
             </div>

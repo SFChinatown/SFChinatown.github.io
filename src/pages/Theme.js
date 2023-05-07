@@ -3,17 +3,57 @@ import { Link } from "react-router-dom";
 import TextBlock from '../components/TextBlock';
 import Tile from '../components/Tile';
 import Footer from '../components/Footer';
+import CarouselHeader from '../components/CarouselHeader';
 import "./Theme.css";
 
 const Theme = () => {
     return (
         <div class='themes'>
-            <div className='header'>
-                <img src={require('../assets/images/test.png')}/>
+            <div className='carousel'>
+                <CarouselHeader
+                    items = {[
+                        {
+                            path: 'home-carousel/carousel-1.jpg',
+                            alt: 'Portsmouth Square',
+                            label: 'Portsmouth Square',
+                        },
+                        {
+                            path: 'home-carousel/carousel-2.jpg',
+                            alt: 'International Hotel',
+                            label: 'International Hotel',
+                        },
+                        {
+                            path: 'home-carousel/carousel-3.jpg',
+                            alt: 'City College of San Francisco – Chinatown',
+                            label: 'City College of San Francisco – Chinatown',
+                        },
+                        {
+                            path: 'home-carousel/carousel-4.jpg',
+                            alt: '(former) Kubla Khan Nightclub',
+                            label: '(former) Kubla Khan Nightclub',
+                        },
+                        {
+                            path: 'home-carousel/carousel-5.jpg',
+                            alt: 'Chinese Hospital',
+                            label: 'Chinese Hospital',
+                        },
+                    ]}
+                />
             </div>
             <div className='overview'>
                 <h1 className='themes-header'>Main Themes</h1>
                 <div className='tiles'>
+                <Tile
+                header="Culture"
+                body={[
+                    "Kubla Khan Nightclub"
+                ]}    
+                image={{
+                    link:"/culture",
+                    path:"Card_KublaKhan.jpg",
+                    alt:"Arts & culture theme"
+                }}
+                />
                 <Tile
                 header="Education"
                 body={[
@@ -22,48 +62,37 @@ const Theme = () => {
                 ]}
                 image={{
                     link:"/education",
-                    path:"test.png",
+                    path:"Card_CCSF.jpg",
                     alt:"Education"
-                }}
-                />
-                <Tile
-                header="Public Health"
-                body={[
-                    "Chinese Hospital",
-                    "Asian Mental Health",
-                    "Traditional Medicine",
-                    "Women’s Health"
-                ]}                
-                image={{
-                    link:"/public-health",
-                    path:"test.png",
-                    alt:"Public health"
                 }}
                 />
                 <Tile
                 header="Housing"
                 body={[
-                    "International Hotel",
-                    "Ping Yuen",
-                    "Mei Lun Yuen",
                     "Housing and Community Organizing in Chinatown Today",
+                    "International Hotel",
+                    "Mei Lun Yuen",
+                    "Ping Yuen",
                     "Reimagining Community Safety"
                 ]}                               
                 image={{
-                    link:"/tenants-community",
-                    path:"test.png",
+                    link:"/housing",
+                    path:"Card_I-Hotel.jpg",
                     alt:"Housing theme"
                 }}
                 />
                 <Tile
-                header="Arts & Culture"
+                header="Public Health"
                 body={[
-                    "Kubla Khan Nightclub"
-                ]}    
+                    "Asian Mental Health",
+                    "Chinese Hospital",
+                    "Traditional Medicine",
+                    "Women’s Health"
+                ]}                
                 image={{
-                    link:"/culture",
-                    path:"test.png",
-                    alt:"Arts & culture theme"
+                    link:"/public-health",
+                    path:"Card_ChineseHospital.jpg",
+                    alt:"Public health"
                 }}
                 />
                 <Tile
@@ -76,7 +105,7 @@ const Theme = () => {
                 ]}                    
                 image={{
                     link:"/public-space",
-                    path:"test.png",
+                    path:"Card_PortsmouthSquare.jpg",
                     alt:"Public Space theme"
                 }}
                 />
@@ -113,7 +142,7 @@ const Theme = () => {
                             </div>
                         </div>
                         <div className='image'>
-                            <img src={require('../assets/images/test.png')}/>
+                            <img src={require('../assets/images/Card_CCSF.jpg')}/>
                         </div>
                     </div>
                 </div>
@@ -122,13 +151,16 @@ const Theme = () => {
                 <div className="theme-section odd">
                     <div className='text-image'>
                         <div className='image'>
-                            <img src={require('../assets/images/test.png')}/>
+                            <img src={require('../assets/images/Card_ChineseHospital.jpg')}/>
                         </div>
                         <div className='description'>
                             <TextBlock
                                 header="Public Health"
-                                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. At consectetur lorem donec massa sapien faucibus et molestie. Ultrices eros in cursus turpis massa. Dolor magna eget est lorem ipsum dolor sit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Ut sem nulla pharetra diam. Nunc lobortis mattis aliquam faucibus purus. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Ut tortor pretium viverra suspendisse potenti nullam ac. Et netus et malesuada fames ac turpis egestas sed. Platea dictumst quisque sagittis purus sit amet.
-                                In dictum non consectetur a erat nam at lectus. Ac tincidunt vitae semper quis. Etiam sit amet nisl purus in mollis. Urna cursus eget nunc scelerisque viverra mauris. Dui accumsan sit amet nulla. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Tellus elementum sagittis vitae et leo duis ut diam. Eu augue ut lectus arcu bibendum at. In tellus integer feugiat scelerisque varius morbi. Nisl rhoncus mattis rhoncus urna neque viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl nisi scelerisque eu ultrices. Orci ac auctor augue mauris."
+                                body="Healthcare in San Francisco Chinatown is a complex and interweaving issue, spanning from historical barriers in Chinese-American’s experience to access, the racialisation of disease, to recent concerns such as COVID-19 and the provision of mental health services.
+
+                                At the heart of this topic is the San Francisco Chinese Hospital, a community owned non-profit hospital founded in 1925 to provide much-needed medical care to a population that was historically excluded from Western medical institutions.
+                                
+                                In taking a snapshot at community healthcare, physicians and healthcare providers face challenges with linguistic differences and relationships with Traditional Chinese Medicine. The backdrop suits power dynamics, racial prejudices, and cultural transformations that continue to impact Chinese-Americans in San Francisco's accessibility to healthcare."
                             />
                             <div className="buttons">
                                 <Link to="/chinese-hospital">
@@ -193,7 +225,7 @@ const Theme = () => {
                             </div>
                         </div>
                         <div className='image'>
-                            <img src={require('../assets/images/test.png')}/>
+                            <img src={require('../assets/images/Card_I-Hotel.jpg')}/>
                         </div>
                     </div>
                 </div>
@@ -202,7 +234,7 @@ const Theme = () => {
                 <div className="theme-section odd">
                     <div className='text-image'>
                         <div className='image'>
-                            <img src={require('../assets/images/test.png')}/>
+                            <img src={require('../assets/images/Card_KublaKhan.jpg')}/>
                         </div>
                         <div className='description'>
                             <TextBlock
@@ -226,8 +258,9 @@ const Theme = () => {
                         <div className='description'>
                             <TextBlock
                                 header="Public Space"
-                                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. At consectetur lorem donec massa sapien faucibus et molestie. Ultrices eros in cursus turpis massa. Dolor magna eget est lorem ipsum dolor sit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Ut sem nulla pharetra diam. Nunc lobortis mattis aliquam faucibus purus. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Ut tortor pretium viverra suspendisse potenti nullam ac. Et netus et malesuada fames ac turpis egestas sed. Platea dictumst quisque sagittis purus sit amet.
-                                In dictum non consectetur a erat nam at lectus. Ac tincidunt vitae semper quis. Etiam sit amet nisl purus in mollis. Urna cursus eget nunc scelerisque viverra mauris. Dui accumsan sit amet nulla. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Tellus elementum sagittis vitae et leo duis ut diam. Eu augue ut lectus arcu bibendum at. In tellus integer feugiat scelerisque varius morbi. Nisl rhoncus mattis rhoncus urna neque viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl nisi scelerisque eu ultrices. Orci ac auctor augue mauris."
+                                body="Ensuring access to open space is essential for any successful city. Parks and plazas serve as important sites for people of all ages to socialize, exercise, and play. This is doubly true for underserved neighborhoods like Chinatown, which has served as a landing pad for multi-generational immigrant families throughout its history. Due to the high cost of living and a lack of economic opportunities, many of these families are forced to live in small, overcrowded spaces. Residents lack space to gather with friends and family. Despite knowing this intense need for open space, it is extremely challenging to address the issue due to the neighborhood’s lack of undeveloped land. As such, Chinatown has the smallest amount of park space per resident of any San Francisco neighborhood.
+
+                                Over the decades, disinvestment, bulky new construction, and bureaucracy have threatened Chinatown’s limited public spaces. Grassroots advocacy organizations like the Committee for Better Parks and Recreation in Chinatown have fought to preserve the quantity and quality of Chinatown’s public open spaces. Through legal battles, public-nonprofit partnerships, and community-centered design, they have successfully protected and improved the quality of Willie “Woo Woo” Wong Playground and Portsmouth Square. Through political maneuvering and creative designs, they have also expanded Chinatown’s open space portfolio to include the Alleyways Program and the Woh Hei Yuen Park."
                             />
                             <div className="buttons">
                                 <Link to="/public-space/alleyeays">
@@ -253,7 +286,7 @@ const Theme = () => {
                             </div>
                         </div>
                         <div className='image'>
-                            <img src={require('../assets/images/test.png')}/>
+                            <img src={require('../assets/images/Card_PortsmouthSquare.jpg')}/>
                         </div>
                     </div>
                 </div>
