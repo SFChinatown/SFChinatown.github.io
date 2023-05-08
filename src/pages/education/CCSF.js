@@ -30,6 +30,25 @@ const CCSF = () => {
                 <p>An example of a legitimate concern, which was then co-opted by the Hilton and opposition, was the concern over shadows. Specifically, there was a question over whether or not the building would cast a shadow on the popular park at Portsmouth Square. The urban planners and organizations that were facilitating the building of the new Chinatown/North Beach campus took this concern seriously, and found that the shadow would cover only a small portion of grass and the staircase to and from the Portsmouth Square Parking Garage.<sup>21</sup> Their research also uncovered the hypocrisy of the Hilton and surrounding businesses for trying to co-opt the shadows argument, as they were contributing to the largest portion of shadows on the park at the time.<sup>22</sup> In addition to the gross hypocrisy of these businesses bringing up shadow ordinances, Prop K, the ordinance that protected public spaces and parks from shadow cover, had its roots deep in SF Chinatown community organizing.</p>
                 <p>Ultimately, organizers rallied an overwhelming amount of student and community support in spite of lobbyists' misinformation. Thanks to the overwhelming support of community members, urban planners, attorneys, community organizations, and CCSF students, the board approved the final measures needed in order to start building the CCSF’s Chinatown campus, and the building was finished in 2008.<sup>23</sup> Since opening its doors in 2012, the building has stood tall as a testament to Chinatown's legacy of community organizing and cross-racial activism.</p>
             </div>
+            <div className='tiles'>
+                <h2>Learn more</h2>
+                <Tile
+                header="CCSF Chinatown/North Beach Campus Tour"
+                image={{
+                    link:"/education/ccsf-chinatown/campus",
+                    path:"Card_CCSF_Campus.jpg",
+                    alt:"CCSF Chinatown/North Beach Campus Tour"
+                }}
+                />
+                 <Tile
+                header="CCSF and the Community"
+                image={{
+                    link:"/education/ccsf-chinatown/community",
+                    path:"Card_KublaKhan.jpg",
+                    alt:"CCSF and the Community"
+                }}
+                />
+            </div>
             <details className="citations">
                 <summary>References</summary>
                 <ul>

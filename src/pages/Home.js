@@ -97,7 +97,9 @@ const Home = () => {
                 header="Education"
                 body={[
                     "CCSF - Chinatown",
-                    "Chinese for Affirmative Action"
+                    "Chinese for Affirmative Action",
+                    "Lau v. Nichols",
+                    "The Model Minority Myth"
                 ]}
                 image={{
                     link:"/education",

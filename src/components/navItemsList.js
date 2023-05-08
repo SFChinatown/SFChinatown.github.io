@@ -28,15 +28,29 @@ export const NavItemsList = [
             {
               title: 'CCSF Chinatown',
               url: 'education/ccsf-chinatown',
+              submenu: [
+                {
+                  title: 'Campus Tour',
+                  url: 'education/ccsf-chinatown/campus'
+                },
+                {
+                  title: 'Community',
+                  url: 'education/ccsf-chinatown/community'
+                }
+              ]
             },
             {
               title: 'Chinese for Affirmative Action',
               url: 'education/cfaa',
             },
             {
-              title: 'Lau Nichols',
+              title: 'Lau v. Nichols',
               url: 'education/lau-nichols',
             },
+            {
+              title: 'The Model Minority Myth',
+              url: 'education/model-minority'
+            }
           ]
         },
         {

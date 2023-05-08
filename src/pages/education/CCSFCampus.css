@@ -1,0 +1,42 @@
+
+.ccsf-campus-intro, .main-building, .annex-section {
+    padding: 30px 150px;
+}
+
+.ccsf-campus-intro, .annex-section {
+    background-color: white;
+}
+
+h2, h3 {
+    margin: 0 100px;
+}
+
+.ccsf-campus-intro > img {
+    width: 100%;
+}
+
+p {
+    text-align: left;
+}
+
+.imgInText, .ccsf-campus-description  {
+    display: inline-block;
+    height: 100%;
+}
+
+.text, .description-carousel  {
+    width: 50vw !important;
+    float: left;
+}
+
+.description-carousel {
+    padding-right: 40px;
+}
+
+.ccsf-campus-description {
+    padding-top: 30px !important;
+}
+.ccsf-campus-description > ListBlock {
+    width: 50%;
+    padding-top: 0px !important;
+}

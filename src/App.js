@@ -9,7 +9,9 @@ import Map from './pages/Map';
 
 // Education pages
 import CCSF from './pages/education/CCSF';
+import CCSFCampus from './pages/education/CCSFCampus';
 import LauNichols from './pages/education/LauNichols';
+import ModelMinority from './pages/education/ModelMinority';
 import CFAA from './pages/education/CFAA';
 
 // Housing pages
@@ -51,7 +53,9 @@ function App() {
 
           {/* Education */}
           <Route exact path="/education/ccsf-chinatown" element={<CCSF />}></Route>
+          <Route exact path="/education/ccsf-chinatown/campus" element={<CCSFCampus />}></Route>
           <Route exact path="/education/lau-nichols" element={<LauNichols />}></Route>
+          <Route exact path="/education/model-minority" element={<ModelMinority />}></Route>
           <Route exact path="/education/cfaa" element={<CFAA />}></Route>
 
           {/* Public Health */}

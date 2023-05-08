@@ -1,0 +1,17 @@
+.model-minority-intro > img {
+    margin: 15px;
+}
+
+.horizontal-img {
+    width: 80% !important;
+}
+
+.model-minority-intro > p {
+    margin: 0 100px;
+    text-align: left;
+}
+
+.callout {
+    font-style: italic;
+    padding: 0 150px;
+}

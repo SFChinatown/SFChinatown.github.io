@@ -58,7 +58,9 @@ const Theme = () => {
                 header="Education"
                 body={[
                     "CCSF - Chinatown",
-                    "Chinese for Affirmative Action"
+                    "Chinese for Affirmative Action",
+                    "Lau v. Nichols",
+                    "The Model Minority Myth"
                 ]}
                 image={{
                     link:"/education",
@@ -129,14 +131,19 @@ const Theme = () => {
                                         CCSF - Chinatown 
                                     </button>
                                 </Link>
+                                <Link to="/education/cfaa">
+                                    <button className="aux-site-btn">
+                                        Chinese for Affirmative Action
+                                    </button>
+                                </Link>
                                 <Link to="/education/lau-nichols">
                                     <button className="aux-site-btn">
                                         Lau v Nichols
                                     </button>
                                 </Link>
-                                <Link to="/education/cfaa">
+                                <Link to="/education/model-minority">
                                     <button className="aux-site-btn">
-                                        Chinese for Affirmative Action
+                                        The Model Minority Myth
                                     </button>
                                 </Link>
                             </div>
