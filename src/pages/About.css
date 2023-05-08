@@ -1,22 +1,20 @@
 .overview {
   background-color: #F5F5F5;
-  padding: 50px 40px;
+  padding: 50px 100px;
   width: 100%;
-}
-
-.description {
-  float: left; 
-  width: 50%; 
+  display: inline-block;
 }
 
 .overview-img {
-  display:flex;
-  flex-direction:column;
+  float: right;
+  width: 45vw;
+  vertical-align: top;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .overview-img  > img {
   width: 100%;
-  padding-right: 30px;
 }
 
 ul {
