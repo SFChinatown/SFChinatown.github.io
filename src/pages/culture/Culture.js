@@ -12,34 +12,34 @@ const Culture = () => {
                 <CarouselHeader
                     items = {[
                         {
-                            path: 'home-carousel/carousel-1.jpg',
-                            alt: 'First slide',
-                            label: 'CBPR',
-                            caption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                            path: 'culture-carousel/img1.jpg',
+                            alt: 'Grant Ave Follies',
+                            label: 'Grant Ave Follies',
                         },
                         {
-                            path: 'home-carousel/carousel-2.jpg',
-                            alt: 'Second slide',
-                            label: 'Second slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            path: 'culture-carousel/img2.png',
+                            alt: 'Kearny St Workshop',
+                            label: 'Kearny St Workshop',
                         },
                         {
-                            path: 'home-carousel/carousel-3.jpg',
-                            alt: 'Third slide',
-                            label: 'Third slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            path: 'culture-carousel/img3.jpg',
+                            alt: 'Kubla Khan Nightclub',
+                            label: 'Kubla Khan Nightclub',
                         },
                         {
-                            path: 'home-carousel/carousel-4.jpg',
-                            alt: 'Fourth slide',
-                            label: 'Fourth slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            path: 'culture-carousel/img4.png',
+                            alt: 'Mr Jiu\'s / Chop Suey (Food)',
+                            label: 'Mr Jiu\'s / Chop Suey (Food)',
                         },
                         {
-                            path: 'home-carousel/carousel-5.jpg',
-                            alt: 'Fifth slide',
-                            label: 'Fifth slide label',
-                            caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            path: 'culture-carousel/img5.jpg',
+                            alt: 'The Forbidden City',
+                            label: 'The Forbidden City',
+                        },
+                        {
+                            path: 'culture-carousel/img6.jpg',
+                            alt: 'The Golden Dragon Massacre',
+                            label: 'The Golden Dragon Massacre',
                         },
                     ]}
                 />

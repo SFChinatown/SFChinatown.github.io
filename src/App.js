@@ -8,6 +8,7 @@ import Theme from './pages/Theme';
 import Map from './pages/Map';
 
 // Education pages
+import Education from './pages/education/Education';
 import CCSF from './pages/education/CCSF';
 import CCSFCampus from './pages/education/CCSFCampus';
 import CCSFCommunity from './pages/education/CCSFCommunity';
@@ -25,7 +26,12 @@ import ReimaginingCommunity from './pages/housing/ReimaginingCommunity';
 
 // Culture pages
 import Culture from './pages/culture/Culture';
+import GoldenDragon from './pages/culture/GoldenDragon';
+import KearnySt from './pages/culture/KearnySt';
 import KublaKhan from './pages/culture/KublaKhan';
+import Food from './pages/culture/Food';
+import ForbiddenCity from './pages/culture/ForbiddenCity';
+import GrantAve from './pages/culture/GrantAve';
 
 // Public Health pages
 import PublicHealth from './pages/public-health/PublicHealth';
@@ -53,6 +59,7 @@ function App() {
           <Route exact path="/main-themes" element={<Theme />}></Route>
 
           {/* Education */}
+          <Route exact path="/education" element={<Education />}></Route>
           <Route exact path="/education/ccsf-chinatown" element={<CCSF />}></Route>
           <Route exact path="/education/ccsf-chinatown/campus" element={<CCSFCampus />}></Route>
           <Route exact path="/education/ccsf-chinatown/community" element={<CCSFCommunity />}></Route>
@@ -77,7 +84,12 @@ function App() {
 
           {/* Arts & Culture */}
           <Route exact path="/culture" element={<Culture />}></Route>
+          <Route exact path="/culture/golden-dragon" element={<GoldenDragon />}></Route>
+          <Route exact path="/culture/food" element={<Food />}></Route>
+          <Route exact path="/culture/forbidden-city" element={<ForbiddenCity />}></Route>
+          <Route exact path="/culture/kearny-street-wkshp" element={<KearnySt />}></Route>
           <Route exact path="/culture/kubla-khan-nightclub" element={<KublaKhan />}></Route>
+          <Route exact path="/culture/grant-ave-follies" element={<GrantAve />}></Route>
 
           {/* Public Spaces */}
           <Route exact path="/public-spaces" element={<PublicSpaces />}></Route>

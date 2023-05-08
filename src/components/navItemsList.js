@@ -16,9 +16,29 @@ export const NavItemsList = [
           url: 'culture',
           submenu: [
             {
+              title: 'Grant Ave Follies',
+              url: 'culture/grant-ave-follies'
+            },
+            {
+              title: 'Kearny Street Workshop',
+              url: 'culture/kearny-street-wkshp'
+            },
+            {
               title: 'Kubla Khan Nightclub',
               url: 'culture/kubla-khan-nightclub'
-            }
+            },
+            {
+              title: 'Mr. Jiu\'s / Chop Suey (Food)',
+              url: 'culture/food'
+            },
+            {
+              title: 'The Forbidden City',
+              url: 'culture/forbidden-city'
+            },
+            {
+              title: 'The Golden Dragon Massacre',
+              url: 'culture/golden-dragon'
+            },
           ]
         },
         {

@@ -46,7 +46,12 @@ const Theme = () => {
                 <Tile
                 header="Culture"
                 body={[
-                    "Kubla Khan Nightclub"
+                    "Grant Ave Follies",
+                    "Kearny Street Workshop",
+                    "Kubla Khan Nightclub",
+                    "Mr. Jiu's / Chop Suey (Food)",
+                    "The Forbidden City",
+                    "The Golden Dragon Massacre"
                 ]}    
                 image={{
                     link:"/culture",
@@ -122,8 +127,9 @@ const Theme = () => {
                         <div className='description'>
                             <TextBlock
                                 header="Education"
-                                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. At consectetur lorem donec massa sapien faucibus et molestie. Ultrices eros in cursus turpis massa. Dolor magna eget est lorem ipsum dolor sit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Ut sem nulla pharetra diam. Nunc lobortis mattis aliquam faucibus purus. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Ut tortor pretium viverra suspendisse potenti nullam ac. Et netus et malesuada fames ac turpis egestas sed. Platea dictumst quisque sagittis purus sit amet.
-                                In dictum non consectetur a erat nam at lectus. Ac tincidunt vitae semper quis. Etiam sit amet nisl purus in mollis. Urna cursus eget nunc scelerisque viverra mauris. Dui accumsan sit amet nulla. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Tellus elementum sagittis vitae et leo duis ut diam. Eu augue ut lectus arcu bibendum at. In tellus integer feugiat scelerisque varius morbi. Nisl rhoncus mattis rhoncus urna neque viverra. Fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl nisi scelerisque eu ultrices. Orci ac auctor augue mauris."
+                                body="Access to education not only serves as a chance at a better life, but is also key to integrating with the larger community. However, formal education has always been a struggle for San Francisco's Chinatown. Segregationist laws, inadequate resources, and lack of bilingual education had created systemic and self-perpetuating oppression for recently arrived immigrants. Without the ability to learn English, many could never confidently leave the boundaries of Chinatown–severing what little chance they had at better-paying jobs downtown as well as the possibility of integrating with the larger SF community.
+
+                                Though many generations have passed and racially segregated education has collapsed, the dedication to bilingual education remains–not only as a resource to those who have recently arrived, but also as a symbol of Chinatown's resilience. Whether committing to broader representation or establishing more learning opportunities, educational issues have persisted at the forefront of Chinatown's politics. Education in Chinatown continues to empower immigrants and nurture their voice, building opportunity and a better San Francisco."
                             />
                             <div className="buttons">
                                 <Link to="/education/ccsf-chinatown">
@@ -249,9 +255,34 @@ const Theme = () => {
                                 body="From its very formation, San Francisco’s Chinatown has always been a site of community agency and empowerment. Faced with discrimination and prejudice outside the boundaries of Kearny, Powell, California, & Broadway, residents of Chinatown created for themselves a self-sustaining community, with everything from the likes of culturally-appropriate groceries to Chinese theaters and herb shops. Of great significance is Chinatown’s long list of cultural enterprises — with a vibrant history of arts, entertainment, and culture, Chinatown has been home to many notable places and events, like the iconic Golden Age nightclubs Kubla Khan and Forbidden City, the Golden Dragon Massacre, the long-standing community arts institution Kearny St. Workshop, and now, a new generation of high-end restaurants, like the Michelin star-earning Mister Jiu’s. These pieces of history have all been a part of forming the social fabric of Chinatown, and continue to shape Chinese American identities, community, and culture. Groups like the Grant Ave. Follies carry on the legacy of the Golden Age of Chinese Nightclubs, while artistic and cultural hotspots like the Kearny St. Workshop and Mister Jiu’s take charge of what it means to be Asian American. These are only some examples of the ways culture thrives in San Francisco’s Chinatown. Through art, community, and innovation, San Francisco’s Chinatown continues to be a beacon of Chinese diasporic culture in the United States and beyond."
                             />
                             <div className="buttons">
+                                <Link to="/culture/grant-ave-follies">
+                                    <button className="aux-site-btn">
+                                        Grant Ave Follies
+                                    </button>
+                                </Link>
+                                <Link to="/culture/kearny-street-wkshp">
+                                    <button className="aux-site-btn">
+                                        Kearny Street Workshop
+                                    </button>
+                                </Link>
                                 <Link to="/culture/kubla-khan-nightclub">
                                     <button className="aux-site-btn">
                                         Kubla Khan Nightclub
+                                    </button>
+                                </Link>
+                                <Link to="/culture/food">
+                                    <button className="aux-site-btn">
+                                        Mr. Jiu's / Chop Suey (Food)
+                                    </button>
+                                </Link>
+                                <Link to="/culture/forbidden-city">
+                                    <button className="aux-site-btn">
+                                       The Forbidden City
+                                    </button>
+                                </Link>
+                                <Link to="/culture/golden-dragon">
+                                    <button className="aux-site-btn">
+                                       The Golden Dragon Massacre
                                     </button>
                                 </Link>
                             </div>

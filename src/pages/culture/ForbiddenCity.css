@@ -1,0 +1,45 @@
+.forbidden-city-intro > img {
+    margin: 15px;
+}
+.vertical-img {
+    height: 70vh !important;
+    width: auto !important;
+}
+
+.horizontal-img {
+    width: 80% !important;
+}
+
+.forbidden-city-intro > p {
+    margin: 0 100px;
+    text-align: left;
+}
+
+.imgRow {
+    display: flex;
+    padding: 0 80px;
+    gap: 30px;
+    justify-content: center;
+    scale: 90%;
+}
+
+.halfImg > p {
+    width: 50vw;
+}
+
+.left {
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 45vw !important;
+}
+
+.right {
+    float: right;
+    width: 45vw !important;
+    padding-top: 20px;
+}
+
+.lastPic {
+    display: block;
+}

@@ -85,7 +85,12 @@ const Home = () => {
                 <Tile
                 header="Culture"
                 body={[
-                    "Kubla Khan Nightclub"
+                    "Grant Ave Follies",
+                    "Kearny Street Workshop",
+                    "Kubla Khan Nightclub",
+                    "Mr. Jiu's / Chop Suey (Food)",
+                    "The Forbidden City",
+                    "The Golden Dragon Massacre"
                 ]}    
                 image={{
                     link:"/culture",
