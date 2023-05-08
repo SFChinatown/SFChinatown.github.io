@@ -1,0 +1,41 @@
+
+.ccsf-community-intro, .ccsf-community-body {
+    padding: 30px 150px;
+}
+
+.ccsf-community-intro {
+    padding-bottom: 0px;
+}
+
+h2, h3 {
+    margin: 0 100px;
+}
+
+.ccsf-community-intro > img {
+    width: 100%;
+}
+
+p {
+    text-align: left;
+}
+
+.ccsf-community-description  {
+    display: inline-block;
+}
+
+.ccsf-community-description  > .description-carousel  {
+    width: 45vw !important;
+    float: left;
+}
+
+.ccsf-community-description > .description-carousel {
+    padding-right: 40px;
+}
+
+.ccsf-community-description {
+    padding-top: 20px !important;
+}
+.ccsf-community-description > ListBlock, .ccsf-community-description > TextBlock {
+    width: 60vw;
+    padding-top: 30px !important;
+}
