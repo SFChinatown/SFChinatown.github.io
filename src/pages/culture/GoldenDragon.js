@@ -33,7 +33,7 @@ const GoldenDragon = () => {
                 </div>
                 <br/>
                 <p>In the wake of the incident, the SF Police formed the Chinatown Gang Task Force that resulted in many arrests and convictions of gang members. It was also uncovered that many of the gang members were an integral part of the Hop Sing Tong, a family association. The FBI got involved and infiltrated the Tongs focusing on Raymond “Shrimp Boy” Chow, who had connections with international crime syndicates called triads (Fong). However, the police faced difficulty in their investigation because Chinatown locals were afraid of gang reprisals for their release of information, which Police Chief Charles Gain criticized as the “subculture of fear" that haunted the community.</p>
-                <div className="imgText">
+                <div className="imgText left">
                     <figure>
                         <img src={require('../../assets/images/goldendragon/image2.jpg')} className="vertical-img"/>
                         <figcaption><sup>6</sup></figcaption>
