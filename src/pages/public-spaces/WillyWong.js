@@ -13,7 +13,7 @@ const WillyWong = () => {
                 <p>The group began meeting monthly in the basement of Cameron House, a historic Church and community-based organization that provides domestic violence case management, counseling services, low-cost summer programming, and other community services. The CBPRC developed a working relationship with the San Francisco Recreation and Parks Department, whereby a City Department staff member attended every meeting. As explained by former CBPRC member Jennie Lew, this partnership reaped many benefits for the Committee: “As we were talking about maintenance, improvement issues, even security problems, or whatever, we had a City staff person right in the meeting. As explained by former CBPRC member Jennie Lew, this partnership reaped many benefits for the committee: “As we were talking about maintenance, improvement issues, even security problems, or whatever, we had a city staff person right in the meeting. They either had the information or they were assigned to go back and get the information for us, and there was local city accountability.”<sup>3</sup> As a result of their effective advocacy, especially their presence at public City Hall meetings, the Board of Supervisors ultimately rejected the developers’ proposal.<sup>4</sup> </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image1.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image3.jpg')} className="horizontal-img"/>
                         <figcaption>
                             The Chinese Playground before a major renovation and addition of the clubhouse in the 1970s.
                             <br/>
@@ -27,7 +27,7 @@ const WillyWong = () => {
                 <p>The design for the central area of the playground was completed after a year and a half of robust community engagement and fundraising efforts.<sup>14</sup> Implementing the design, however, required extensive negotiations with various government bodies, including the City Recreation and Parks Commission, the Art Commission, and the Department of Public Works. With the help of Recreation and Parks Department staff, the CBPRC was able to realize a pivotal renovation of the central play area, which served as a model for later phases of improvements, including subsequent addition of a "tot lot" area for younger children and a new clubhouse for indoor recreational activities (e.g., ping pong, board games, youth and parent gathering and community meetings).<sup>15</sup> </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image2.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image6.jpg')} className="horizontal-img"/>
                         <figcaption>
                             The Chinese Playground under construction in 1978.
                             <br/>
@@ -38,7 +38,7 @@ const WillyWong = () => {
                 <br />
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image3.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image4.jpg')} className="horizontal-img"/>
                         <figcaption>
                             The Chinese Playground after major renovations in 1980.
                             <br/>
@@ -55,7 +55,7 @@ const WillyWong = () => {
                 <p>Jennie Lew (CBPRC member that authored the "shadow ordinance" with SF Supervisors Bill Maher, Supervisor Lousie Renne and City Rec. and Parks Department General Manager Mary Burns) recalls "this was not what members of CBPRC had in mind when we conceived and fought for the Prop. K shadow ordinance. The Planning Commission rated Portsmouth Square and the Chinese Playground as where <b><i>NO new shadow would be allowed</i></b>. The whole objective of Prop. K was NOT to have shadow impacts be 'negotiables' on a case-by-case basis for all eternity between developers and CBPRC or other community groups, however, that's what the City and community has now accepted in Chinatown.”<sup>29</sup></p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image4.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image5.png')} className="horizontal-img"/>
                         <figcaption>
                             A San Francisco Examiner article written by Gerald Adams from November 1982 covering the fight over the Ning Yung condominium project.
                         </figcaption>
@@ -66,7 +66,7 @@ const WillyWong = () => {
                 <p>The playground continues to be an important community hub for the Chinatown neighborhood. During the COVID-19 pandemic, a non-profit organization called the Community Youth Center (CYC) opened a Community Hub in the playground’s clubhouse as part of San Francisco’s Community Hub Initiative. The initiative provided young people with distance learning support and extracurricular opportunities. The Willie Wong Community Hub focused on serving middle and high school-aged English language learners and those living in public housing and single-room occupancies (SROs).<sup>31</sup> </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image5.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image1.jpg')} className="horizontal-img"/>
                         <figcaption>
                             The Willie Wong Clubhouse on Waverly Place.
                             <br/>
@@ -79,7 +79,7 @@ const WillyWong = () => {
                 <p>In February 2021, the playground reopened after undergoing major renovations. The $14.5 million project was funded by the 2012 Clean and Safe Neighborhood Parks Bond, the San Francisco Open Space Fund, and the Downtown Park Fund, which requires downtown commercial developers to pay fees to support public services. Working in collaboration with the Chinatown Community Development Center, the San Francisco Recreation and Park Department conducted trilingual surveys and focus groups of teens, daycare staff, and seniors. The resulting design includes clear references to Chinese iconography and mythology. In the central play area, a water dragon sculpture loops around a climbable two-level tower. A phoenix sculpture connects two play zones that cater to different age groups. Inside the clubhouse, a mural painted by local artist Julie Chang depicts black and white peonies—which symbolize honor and abundance—along with a red knot symbolizing good fortune and green bamboo lines.<sup>32</sup> </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image6.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image2.jpg')} className="horizontal-img"/>
                         <figcaption>
                             Renderings for the latest redesign of Willie Wong Playground.
                             <br/>
