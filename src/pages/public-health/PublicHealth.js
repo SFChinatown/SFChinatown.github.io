@@ -15,12 +15,12 @@ const PublicHealth = () => {
                             label: 'Chinese Hospital',
                         },
                         {
-                            path: 'public-spaces-carousel/image2.png',
+                            path: 'public-health-carousel/image2.png',
                             alt: 'Traditional Medicine',
                             label: 'Traditional Medicine',
                         },
                         {
-                            path: 'public-spaces-carousel/image3.png',
+                            path: 'public-health-carousel/image3.png',
                             alt: "Women's Health",
                             label: "Women's Health",
                         },
