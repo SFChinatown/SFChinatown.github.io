@@ -12,15 +12,22 @@ const MeiLunYuen = () => {
                 <p>As was made evident by the International Hotel eviction protests, 1970s San Francisco Chinatown was in great need of affordable housing for its residents. In 1970, a study by the City of San Francisco found that over 26% of Chinatown's population lived in overcrowded conditions. In 1974, the Bureau of Building Inspection found that 42% of housing in Chinatown contained building code violations. Additionally, around 1976, the San Francisco Planning Department found that 50% of Chinatown’s elderly population lived without sufficient plumbing.<sup>1</sup> Clearly, Chinatown desperately needed housing that would provide its residents, especially its elderly residents,  with safe, secure, and affordable places to live. One solution to this issue was the Mei Lun Yuen Redevelopment Project.</p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/meilunyuen/image1.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/meilunyuen/image3.jpg')} className="horizontal-img"/>
                     </figure>
                 </div>
                 <br/>
                 <p>Up until the 1970s, the southwest block of Stockton and Sacramento Streets contained 11 residential buildings that were in poor condition, with some even remaining unoccupied. The Chinatown Coalition for Better Housing proposed the Mei Lun Yuen Redevelopment Project, which would redevelop the block into low-income housing instead.<sup>2</sup> The location was ideal, as it was within a block of other important Chinatown resources and locations, including the Cameron House, St. Mary’s Chinese School, Stockton Elementary School, and the YMCA.<sup>3</sup> The original plan was to construct five residential buildings containing 175 units in total, with 140 units being designated for elderly residents and 35 units designed to accommodate families. There would also be a five-story commercial garage constructed on the property for use by both Mei Lun residents and patrons of the surrounding neighborhood.<sup>4</sup></p>
-                <div className="imgText">
-                    <figure>
-                        <img src={require('../../assets/images/meilunyuen/image2.jpg')} className="horizontal-img"/>
-                    </figure>
+                <div className="imgRow">
+                    <div className="imgText">
+                        <figure>
+                            <img src={require('../../assets/images/meilunyuen/image1.png')} className="horizontal-img"/>
+                        </figure>
+                    </div>
+                    <div className="imgText">
+                        <figure>
+                            <img src={require('../../assets/images/meilunyuen/image2.jpg')} className="horizontal-img"/>
+                        </figure>
+                    </div>
                 </div>
                 <br/>
                 <p>The first obstacle in the construction of Mei Lun Yuen was funding. Due to supposed budget cuts, the United States Department of Housing and Urban Development (HUD) was unable to provide federal matching funds to construct the project. Community members decided to draw attention to the project’s need for funding by holding a community demonstration. A peaceful walking protest was held from Portsmouth Square, an important community gathering space in Chinatown, to the HUD office in Embarcadero Center. About  200 people came together to show their support for the project. Eventually, the HUD allocated funds specifically for housing subsidy programs. Additionally, funding for the project was acquired through partnerships between multiple developers. The Presbyterian Church in Chinatown partnered with the private developing firm Arcon to develop the project; the church financed the housing while the firm financed the parking garage.<sup>5</sup> Ultimately, the project was able to obtain funding for construction to commence.</p>
