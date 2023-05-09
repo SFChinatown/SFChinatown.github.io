@@ -7,7 +7,7 @@ const KublaKhan = () => {
     return (
         <div className="kubla-khan-page">
             <div className="kubla-khan-intro">
-                <h2>Kubla Khan</h2>
+                <h2>Kubla Khan Nightclub</h2>
                 <p>In 1944, the Kubla Khan Theater Restaurant opened its doors by the entrepreneur Eddie Pond, who emigrated from Hong Kong in 1923. After opening his first nightclub, the Dragon’s Lair, and witnessing a post WWI entertainment boom, Pond continued to grow his commercial interests by opening the Kubla Khan. The name of the nightclub and restaurant itself conveys fantasy, inspired by the 1816 poem by Samuel Taylor Coleridge “<i>Kubla Khan, or a Vision in a Dream. A Fragment</i>.<sup>1</sup>”</p>
                 <p className="quote">In Xanadu did Kubla Khan,
                 <br/>A stately pleasure-dome decree, 
