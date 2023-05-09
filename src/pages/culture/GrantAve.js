@@ -41,7 +41,7 @@ const GrantAve = () => {
                 <p>With their home base at the Clarion Performing Arts Center in San Francisco Chinatown, the Grant Ave. Follies are an integral part of the Chinatown community. Cynthia Yee, founder of the Grant Ave. Follies, and Clara Hsu, a core member of the Follies, lead the Clarion Performing Arts Center as Board President and Executive Director respectively. In 2016, Hsu bought back Clarion after an eleven-year hiatus, and rebranded the long-standing Clarion Music Center as the Clarion Performing Arts Center in 2019. Clarion provided musical resources for the San Francisco Chinatown community for almost 35 years, and now continues to empower the Asian American community in the Bay Area with its arts and cultural programs.[2] The Clarion Performing Arts Center also houses the Showgirl Magic Museum, paying homage to the nightlife performers of the Golden Age.</p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/grantave/img4.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/grantave/img5.jpg')} className="horizontal-img"/>
                         <figcaption>Grant Ave. Follies centerpiece at the Showgirl Magic Museum</figcaption>
                     </figure>
                 </div>
@@ -49,7 +49,7 @@ const GrantAve = () => {
                 <p>Costumes, headdresses, and other memorabilia live at the museum, including beautiful dresses, worn and handmade by Coby Yee, who was known as “China’s Most Daring Dancing Doll,” and even a pair of tap shoes worn by Tony Wing.[3][4] </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/grantave/img5.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/grantave/img6.jpg')} className="horizontal-img"/>
                         <figcaption>Community art wall at Clarion Performing Arts Center</figcaption>
                     </figure>
                 </div>
