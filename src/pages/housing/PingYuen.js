@@ -27,7 +27,7 @@ const PingYuen = () => {
                 <p>Despite the high demand for housing in Ping Yuen, the complex also suffered from rundown conditions and security issues. In July 1977, a gang-related shootout took place in the housing project, leaving a 16 year old resident dead.  Julia La Chica, a Japanese Filipina artist and former resident who grew up in the Ping, recounted in an interview  that the building was wide open, “so anybody could come inside.” This presented  a safety issue, given the building’s proximity to the Red Light District.<sup>10</sup> She also recalled how the elevator was consistently broken and dirty and how the garbage chute was always overflowing.</p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/pingyuen/image2.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/pingyuen/image2.jpg')} className="horizontal-img"/>
                         <figcaption>
                             Julia La Chica and her Family in their Living Room for their First Christmas in the Ping
                             <br/>
@@ -36,12 +36,14 @@ const PingYuen = () => {
                     </figure>
                 </div>
                 <br/>
+                <p>Ping Yuen’s lack of security created dangerous conditions for its residents. One high profile incident occurred in 1978 when 19 year old Julia Wong was raped and murdered in a stairway of the Ping. According to La Chica, who was 13 at the time of the murder, the building “was dimly lit. It didn’t feel safe in that sense. Growing up there, I experienced seeing at least four deceased people in the building area… And I think the last straw was when [Julia Wong] was murdered. And everybody was up in arms. They wanted something done. [The residents]  wanted to feel safe again. I mean, I feel like I am still suffering from post-traumatic stress disorder over that murder. You know, I had seen her. I had told the police who she was; I took them to her apartment, to her family's home.”<sup>11</sup></p>
+                                  
                 <p>The death of Julia Wong finally spurred tenants to demand change. Between 1978 and 1979, 200 families participated in a rent strike that lasted months to protest the poor repair and security conditions. The strike was co-organized by future San Francisco Mayor Ed Lee, who was a law student at the time.<sup>12</sup> Residents paid their rent into an escrow holding account until their demands for guards, new gates, better lighting, and window bars were met. La Chica recalls that the activists were mostly Chinese women who were “very women-centered,” and that because of the successful organizing of the rent strike, the residents gained more strength and confidence to deal with the other issues in the building.<sup>13</sup></p>
                 <br/>
                 <div className="imgRow">
                     <div className="imgText">
                         <figure>
-                            <img src={require('../../assets/images/pingyuen/image3.png')} className="vertical-img"/>
+                            <img src={require('../../assets/images/pingyuen/image3.jpg')} className="vertical-img"/>
                             <figcaption>
                                 Promise of Strength
                                 <br/>
@@ -61,7 +63,7 @@ const PingYuen = () => {
                     </div>
                     <div className="imgText">
                         <figure>
-                            <img src={require('../../assets/images/pingyuen/image5.png')} className="vertical-img"/>
+                            <img src={require('../../assets/images/pingyuen/image5.jpg')} className="vertical-img"/>
                             <figcaption>
                                 Ping Yuen Exterior Today
                                 <br/>
@@ -73,7 +75,7 @@ const PingYuen = () => {
                 <p>However, by the 2000s, as a result of chronic underfunding, the city of San Francisco again failed to address security concerns and renew aging infrastructure. Robberies and assaults were still common around Ping Yuen.<sup>14</sup> Finally, in 2013, the late Mayor Ed Lee replaced the housing authority commissioners and offloaded public housing properties, including Ping Yuen, to nonprofits better suited to manage housing renovations. The CCDC was able to leverage housing tax credits and EBT financing from the Rental Assistance Demonstration (RAD) to finally work together with tenants to fix the gates and to find temporary housing for tenants while the units were being upgraded.<sup>15</sup> </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/pingyuen/image6.png')} className="vertical-img"/>
+                        <img src={require('../../assets/images/pingyuen/image6.jpg')} className="vertical-img"/>
                         <figcaption>
                             Caption: Peace Garden Stay
                             <br/>Citation: Julia la Chica, 2023
@@ -83,7 +85,7 @@ const PingYuen = () => {
                 <p>Reflecting on her experience growing up in Ping Yuen, La Chica expressed that the Ping is important because it is “low income housing for families, the elderly, and youths that would not [otherwise] be able to afford to live in San Francisco.”<sup>16</sup> She expressed concern about the current scarcity of public housing in Chinatown and is now working on a series of art pieces titled “Everybody Deserves a Place to Rest.” The series deals with her experience of  growing up in the Ping, her general  concerns around the homelessness crisis, and her belief that “ people, human beings, [deserve] a place to lay down their heads.”<sup>17</sup></p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/pingyuen/image7.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/pingyuen/image7.jpg')} className="horizontal-img"/>
                         <figcaption>
                             The Ping
                             <br/>Citation: Julia La Chica, 2019, North Ping Yuen, S.F. Public Housing.
