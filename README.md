@@ -26,6 +26,12 @@ website link -> https://SFChinatown.github.io<br />
 * TextBlock: A block containing a header and plain text
 * Tile: A delineated rectangle containing a linked photo and a text block underneath
 
+## Future improvement
+* Create a less repetitive system for citations, potentially some sort of component
+* Make styling more uniform for pages (most styling should just occur in src/pages/PageStyle.css)
+* Dynamic sizing for mobile viewing
+* Introduce more custom drawn graphics!
+
 ### Style reference
 * https://getbootstrap.com/
 * https://mdbootstrap.com/docs/standard/

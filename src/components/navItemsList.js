@@ -28,7 +28,7 @@ export const NavItemsList = [
               url: 'culture/kubla-khan-nightclub'
             },
             {
-              title: 'Mr. Jiu\'s / Chop Suey (Food)',
+              title: 'Mr. Jiu\'s / Chop Suey ',
               url: 'culture/food'
             },
             {
