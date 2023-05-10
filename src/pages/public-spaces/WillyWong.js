@@ -79,7 +79,7 @@ const WillyWong = () => {
                 <p>In February 2021, the playground reopened after undergoing major renovations. The $14.5 million project was funded by the 2012 Clean and Safe Neighborhood Parks Bond, the San Francisco Open Space Fund, and the Downtown Park Fund, which requires downtown commercial developers to pay fees to support public services. Working in collaboration with the Chinatown Community Development Center, the San Francisco Recreation and Park Department conducted trilingual surveys and focus groups of teens, daycare staff, and seniors. The resulting design includes clear references to Chinese iconography and mythology. In the central play area, a water dragon sculpture loops around a climbable two-level tower. A phoenix sculpture connects two play zones that cater to different age groups. Inside the clubhouse, a mural painted by local artist Julie Chang depicts black and white peonies—which symbolize honor and abundance—along with a red knot symbolizing good fortune and green bamboo lines.<sup>32</sup> </p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/willywong/image2.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/willywong/image2.png')} className="horizontal-img"/>
                         <figcaption>
                             Renderings for the latest redesign of Willie Wong Playground.
                             <br/>
