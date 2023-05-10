@@ -33,7 +33,7 @@ const PortsmouthSquare = () => {
                     </figcaption>
                 </figure>
                 <br />
-                <h3>Founding and Early History</h3>
+                <h3>Location of Portsmouth Square</h3>
                 <p>Portsmouth Square is situated on the north side of the city’s Financial District, bordered by Kearny Street to the east, Washington Street to the north, Clay Street to the south, and Walter U Lum Place to the west.</p>
                 <p>Portsmouth Square can be found where the initial public square, The Grand Plaza, was established in the early 1800s within the Mexican community of Yerba Buena. As early as 1833, the area was utilized as a location for public meetings, and in 1835 it was officially designated as a plaza.<sup>7</sup> In the course of the Mexican-American War, Captain John Berrien Montgomery was instructed to capture Yerba Buena while serving aboard the USS Portsmouth.<sup>8</sup> On July 9, 1846, Montgomery and a group of 17 soldiers arrived, planted the initial American flag, and claimed the territory.<sup>9</sup> It was later renamed Portsmouth Square in honor of the U.S. Navy ship.<sup>10</sup> Over time, the location of Portsmouth Square has shifted slightly in relation to the waterfront of San Francisco due to land reclamation projects and other changes in the city's geography.</p>
                 <figure>
@@ -80,7 +80,7 @@ const PortsmouthSquare = () => {
                 </figure>
                 <br />
                 <h3>Struggles to Maintain Portsmouth Square</h3>
-                <p>San Francisco Chinatown, being one of the most densely populated places in the whole country, has the least amount of public open space per person of any community in San Francisco.<sup>26</sup> Therefore, open space is crucial to SF Chinatown, and the CNIRC (Chinatown Neighborhood Improvement Resource Center), now known as CCDC (Chinatown Community Development Center), considers sunlight to be an essential element for SF Chinatown’s open space.<sup>27</sup> </p>
+                <p>San Francisco Chinatown, being one of the most densely populated places in the whole country, has the least amount of public open space per person of any community in San Francisco.<sup>26</sup>  Therefore, open space is crucial to SF Chinatown, and the CBPRC (Committee for Better Park and Recreation in Chinatown) were early pioneers in advocating for sunlight preservation to be an essential element for SF Chinatown’s open space<sup>27</sup>, worthy of analysis and protection under the San Francisco’s Environmental Impact Report (EIR) process when reviewing all proposed new developments. </p>
                 <p>Everyday, senior citizens use Portsmouth Square as a social hub. Adults frequently bring their children to Portsmouth Square for fresh air and outdoor activities. Due to their limited mobility, many Chinatown residents visit Portsmouth Square as their only open space. Thus, the Portsmouth Square Master Plan was developed in order to enhance seniors' and children's recreational opportunities while also providing a secure park environment.<sup>28</sup></p>
                 <figure>
                     <img src={require('../../assets/images/portsmouth/PortsmouthSquare_9.jpeg')} className='horizontal-img'/>
@@ -90,7 +90,7 @@ const PortsmouthSquare = () => {
                 </figure>
                 <br />
                 <p>Funds were requested by the CBPRC (Committee for Better Parks and Recreation in Chinatown) during the Community Development public hearings in 1977 to expand the Portsmouth Square children’s play area. The Office of Community Development granted $50,000 for the improvements.<sup>30</sup> After receiving the necessary funds, the CBPRC began to seek community input from residents, especially children, to help determine what improvements and recreational needs to prioritize.<sup>31</sup> </p>
-                <p>In 1978, Jennie Lew, CNIRC’s technical advisor, created a questionnaire to gather data on the needs and interests of children in Chinatown to provide a basis for the preliminary design development of Portsmouth Square’s tot lot. The survey collected data on the primary users of the play area and the preferred placement of seating, seating in relation to sunlight, surfaces for the play zones, types of activities in the play zones, etc. <sup>32</sup> Small sketches were shown to people to portray the different types of designs.<sup>5</sup></p>
+                <p>In 1978, Jennie Lew (then serving as CNIRC’s first Planner assigned to provide technical assistant to the CBPRC), created a questionnaire to gather data on the needs and interests of children in Chinatown to provide a basis for the preliminary design development of Portsmouth Square’s tot lot. The survey collected data on the primary users of the play area and the preferred placement of seating, seating in relation to sunlight, surfaces for the play zones, types of activities in the play zones, etc. <sup>32</sup> Small sketches were shown to people to portray the different types of designs.<sup>5</sup></p>
                 <figure>
                     <img src={require('../../assets/images/portsmouth/PortsmouthSquare_10.jpeg')} className='horizontal-img'/>
                     <figcaption>

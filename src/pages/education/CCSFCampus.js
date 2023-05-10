@@ -38,7 +38,7 @@ const CCSFCampus = () => {
                         <Carousel.Item>
                         <img
                           className="d-block w-100"
-                          src={require('../../assets/images/ccsf/campus/carousel1/CCSF_Main_F1_01.jpeg')}
+                          src={require('../../assets/images/ccsf/campus/carousel1/CCSF_Main_F1_02.jpeg')}
                           alt="Second slide"
                         />
                         </Carousel.Item>
@@ -170,7 +170,7 @@ const CCSFCampus = () => {
                     <ListBlock
                         header="Floor 2 – Library"
                         body={[
-                            "The library is two floors. The first level has a collection of ESL level books that librarians can refer ESL students to based on their level of reading. They also have books, newspapers, and magazines to read.",
+                            "The library has two floors. The first level has a collection of ESL level books that librarians can refer ESL students to based on their level of reading. They also have books, newspapers, and magazines to read.",
                             "The library’s goal is to provide equitable access to the marginalized student population by providing textbooks that they might need and offering computers to borrow for students as well. In addition to laptops, students can get hot spots to borrow as well.",
                             "The library also hopes to serve as a safe and relaxing space for folks who do not have that space at home."
                         ]}

@@ -14,16 +14,16 @@ const ChineseHospital = () => {
                 <br />
 
                 <h2>Chinese Hospital</h2>
-                <img src={require('../../assets/images/chinesehosp/image1.jpg')} />
+                <img src={require('../../assets/images/chinesehosp/image2.png')} />
                 <sup>5</sup>
                 <br />
                 <p>The Chinese Hospital stands as a testament to the determination and resilience of the Chinese community in San Francisco, having been established in 1925 to provide much-needed medical care to a population that was historically excluded from Western medical institutions. The hospital was the brainchild of the Chinese Six Companies, a prominent Chinese-American community organization that was founded in 1882. The notion of establishing a hospital specifically for the Chinese community was first introduced in the 1890s, when the Chinese community submitted a petition to the Board of Health requesting permission to do so. Unfortunately, their proposal was met with rejection, as the Board deemed the idea to be both a nuisance and a hazard to the surrounding neighborhood.<sup>6</sup></p>
                 <p>Nevertheless, the Chinese community continued to push for a medical facility that would provide comprehensive care to its people. In 1900, the Board of Supervisors finally granted permission for a Chinese dispensary to be opened in Chinatown, which served as a basic medical center for the Chinese community. The drive to establish a comprehensive medical facility persisted over the following two decades, and in 1924, the Chinese Six Companies acquired a building on Jackson Street, which was transformed into a hospital. The hospital officially opened its doors in 1925, consisting of 50 beds and a team of Chinese physicians, nurses, and support staff.</p>
                 <p>The Chinese Hospital quickly established itself as an indispensable institution in the Chinese community, offering a range of medical specialties, including surgery, obstetrics, and pediatrics.  Despite the struggles of securing consistent funding during the early years of its establishment, influential figures in the Chinese physician community continued to support the Chinese Hospital.</p>
                 <p>The vision of providing a cost effective health care option that serves the needs of the SF Chinatown community has remained the same throughout the years.Today, the hospital has expanded its services and continues to provide high-quality care to the Chinatown community. After receiving the Hill Burton grant in the 1970s, the hospital went beyond offering healthcare facilities and began advocating for education resources through the founding of the Chinese Community Health Care Association (CCHCA). Today, the Chinese Hospital collaborates with its organization partners to better healthcare services, as well as to advocate for greater access of healthcare for underprivileged residents. In doing so, it has expanded community health on a broader scale and built stronger bonds of trust with its patients.<sup>7</sup></p>
-                <img src={require('../../assets/images/chinesehosp/image2.png')} />
-                <br /><br />
                 <img src={require('../../assets/images/chinesehosp/image3.jpg')} />
+                <br /><br />
+                <img src={require('../../assets/images/chinesehosp/image1.jpg')} />
                 <br /><br />
                 <img src={require('../../assets/images/chinesehosp/image4.jpg')} />
                 <br /><br />

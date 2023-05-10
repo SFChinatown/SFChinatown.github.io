@@ -10,7 +10,7 @@ const WohHeiYuen = () => {
                 <h2>Woh Hei Yuen</h2>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/wohheiyuen/image1.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/wohheiyuen/image4.png')} className="horizontal-img"/>
                         <figcaption>
                             Woh Hei Yuen Entrance<sup>1</sup>
                         </figcaption>
@@ -34,7 +34,7 @@ const WohHeiYuen = () => {
                 <p>The City eminent domain of the Cathay Mortuary properties was an arduous and lengthy process, legally led by the City Attorney’s office (i.e., specifically Attny. Andrew Swart) and involving innumerable public hearings attended by a wide coalition of community non-profit organizations and countless individuals that supported the CBPRC for years. According to Terry Ow-Wing, a former  member of the CBPRC, the need for extra park space won over most people, even though some local residents might not look forward to playing in a park on the site of a former morgue. "If you believe in the community, you want to look forward and not look back," she said.<sup>10</sup></p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/wohheiyuen/image3.jpg')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/wohheiyuen/image5.png')} className="horizontal-img"/>
                         <figcaption>
                             The CBPRC Members <br/>(Left to Right - Jennie Lew w/son Jordan Fong, Gary Wong, Doreen Der, Terry Ow-Wing), <br/>holding a conceptual rendering of a proposed new Chinatown park in front of the Cathay Mortuary site on Powell Street, <br/>during eminent domain hearings by the City of San Francisco.<sup>11</sup>
                         </figcaption>
@@ -44,7 +44,7 @@ const WohHeiYuen = () => {
                 <p>The design and construction of the project were managed by the Department of Public Works and the Recreation and Park Department.<sup>12</sup> The planning process, which began in 1991, was led by the CBPRC and Rec and Park Department Planner Deborah Learner, with input from seniors, childcare providers, school children, and residents in eleven workshops. The initial plan incorporated their needs and suggestions, which were integrated by DPW (Dept. of Public Works) architects. The architectural firm Murokami and Associates joined the design process, and the $1.6 million Woh Hei Yuen Recreation Center building was constructed by DPW's construction crew and Lem Construction once the plan was finalized.</p>
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/wohheiyuen/image4.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/wohheiyuen/image3.jpg')} className="horizontal-img"/>
                         <figcaption>
                             Woh Hei Yuen Layout Map (1992)<sup>13</sup>
                         </figcaption>
@@ -53,7 +53,7 @@ const WohHeiYuen = () => {
                 <br />
                 <div className="imgText">
                     <figure>
-                        <img src={require('../../assets/images/wohheiyuen/image5.png')} className="horizontal-img"/>
+                        <img src={require('../../assets/images/wohheiyuen/image1.png')} className="horizontal-img"/>
                         <figcaption>
                             Woh Hei Yuen Park<sup>14</sup>
                         </figcaption>

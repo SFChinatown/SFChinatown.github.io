@@ -65,12 +65,6 @@ const Alleyways = () => {
                     />
                     <figcaption>Mui and Jennie, on the conceptual planning phase, and why alleyways were studied so extensively</figcaption>
                 </figure>
-                <figure>
-                    <AudioPlayer 
-                        url="../assets/audio/alleyways/part5.m4a"
-                    />
-                    <figcaption>Jennie, on securing initial funding sources for the open space alleyway improvements, and Jennie and Mui on possible areas where funding was distributed to</figcaption>
-                </figure>
             </div>
 
             {/* TODO: Figure out cleaner way to do citations, maybe with a component? */}

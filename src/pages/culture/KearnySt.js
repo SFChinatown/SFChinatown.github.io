@@ -75,7 +75,7 @@ const KearnySt = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={require("../../assets/images/kearnyst/img9.png")} />
+                        <img className="d-block w-100" src={require("../../assets/images/kearnyst/img10.png")} />
                         <Carousel.Caption>
                             <p>Source: <a href="https://datebook.sfchronicle.com/entertainment/how-kearny-street-workshop-created-a-platform-for-asian-american-artists-in-the-bay-area">https://datebook.sfchronicle.com/entertainment/how-kearny-street-workshop-created-a-platform-for-asian-american-artists-in-the-bay-area</a></p>
                         </Carousel.Caption>
