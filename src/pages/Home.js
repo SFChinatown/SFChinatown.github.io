@@ -92,7 +92,7 @@ const Home = () => {
                     "Grant Ave Follies",
                     "Kearny Street Workshop",
                     "Kubla Khan Nightclub",
-                    "Mr. Jiu's / Chop Suey (Food)",
+                    "Mr. Jiu's / Chop Suey ",
                     "The Forbidden City",
                     "The Golden Dragon Massacre"
                 ]}    

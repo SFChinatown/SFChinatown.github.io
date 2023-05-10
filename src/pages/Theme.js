@@ -49,7 +49,7 @@ const Theme = () => {
                     "Grant Ave Follies",
                     "Kearny Street Workshop",
                     "Kubla Khan Nightclub",
-                    "Mr. Jiu's / Chop Suey (Food)",
+                    "Mr. Jiu's / Chop Suey ",
                     "The Forbidden City",
                     "The Golden Dragon Massacre"
                 ]}    
@@ -272,7 +272,7 @@ const Theme = () => {
                                 </Link>
                                 <Link to="/culture/food">
                                     <button className="aux-site-btn">
-                                        Mr. Jiu's / Chop Suey (Food)
+                                        Mr. Jiu's / Chop Suey 
                                     </button>
                                 </Link>
                                 <Link to="/culture/forbidden-city">

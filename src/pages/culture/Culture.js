@@ -28,8 +28,8 @@ const Culture = () => {
                         },
                         {
                             path: 'culture-carousel/img4.png',
-                            alt: 'Mr Jiu\'s / Chop Suey (Food)',
-                            label: 'Mr Jiu\'s / Chop Suey (Food)',
+                            alt: 'Mr Jiu\'s / Chop Suey ',
+                            label: 'Mr Jiu\'s / Chop Suey ',
                         },
                         {
                             path: 'culture-carousel/img5.jpg',
