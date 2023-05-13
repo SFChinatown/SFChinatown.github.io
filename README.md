@@ -1,6 +1,11 @@
 # ENVDES C132 / HUM C132 -- Spring 2023
 website link -> https://SFChinatown.github.io<br />
 
+## Known Issues
+1. LFS Data is over 1GB. settings -> billings and plans -> plans and usage, scroll down to Git LFS Data. (solution, pull down this repository, delete entire repository, then upload it again as a new one)
+2. Page Deployment failure. something about "telemetry?" (Actions -> pages and deployment -> report-build status -> report build status dropdown)
+
+
 ## How to update a page
 * Find a page in the src/pages file and update accordingly!
 
